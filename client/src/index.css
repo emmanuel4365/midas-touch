@@ -68,7 +68,8 @@ body {
 
 header {
   width: 100%;
-  /* height: 95px; */
+  /* position: fixed; */
+  height: 112.7px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -80,10 +81,11 @@ header {
 }
 
 .navbar {
-  /* position: fixed; */
-  /* top: 0; */
-  /* left: 0; */
-  /* right: 0; */
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
   /* z-index: 10; */
   width: 100%;
   background-color: var(--clr-background-white);
@@ -163,15 +165,27 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 100%;
+  max-width: 1450px;
   height: 500px;
   overflow: hidden;
 }
 
-.city-photo-container {
+.image-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image {
   display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
   justify-content: center;
   width: 100%;
   height: 500px;
@@ -179,18 +193,30 @@ header {
   /* background: url(./assets/city-photo2.jpg) center/cover; */
 }
 
-.city-photo {
+.image1 {
+  transform: translateX(0);
+}
+
+.image2 {
+  transform: translateX(100%);
+}
+
+.image3 {
+  transform: translateX(200%);
+}
+
+/* .city-photo {
   width: 100%;
   height: auto;
   position: absolute;
-}
+} */
 
 .overlay {
   width: 100%;
   height: 100%;
   position: absolute;
   background-color: #041329;
-  opacity: 0.3;
+  opacity: 0.45;
   /* z-index: 100; */
 }
 
@@ -232,6 +258,111 @@ header {
   padding: var(--padding-button-top-bottom) var(--padding-button-left-right);
 }
 
+.global-presence-container {
+  width: 60%;
+  max-width: 1450px;
+  min-height: 100px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(319px, 1fr));
+  gap: 0px; */
+  /* align-items: center;
+  justify-content: center; */
+  font-size: 70px;
+}
+
+.global,
+.presence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .global {
+  margin-right: -10px;
+} */
+
+/* .presence {
+  margin-left: -10px;
+} */
+
+.global-presence-text-container {
+  width: 100%;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.global-presence-text {
+  width: 95%;
+  text-align: justify;
+}
+
+.services-container {
+  width: 100%;
+  max-width: 1450px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-heading {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.services-list {
+  width: 95%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.services-paragraph {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.service {
+  width: 600px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+/* .learning-and-development-text,
+.Coporate-Services-and-Advisories-text {
+  width: 400px;
+  min-height: 95px;
+} */
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
 /* ===================== */
 /* End of Main */
 
@@ -241,6 +372,7 @@ header {
 footer {
   width: 100%;
   min-height: 100px;
+  margin-top: 30px;
   color: var(--clr-text-white);
   display: flex;
   align-items: center;
@@ -265,6 +397,52 @@ footer {
   .slider-sub-heading {
     width: 60%;
   }
+
+  .global-presence-container {
+    width: 80%;
+  }
+
+  .global,
+  .presence {
+    font-size: 50px;
+  }
+
+  .globe-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .service {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .service {
+    width: 300px;
+  }
+
+  .global-presence-container {
+    flex-direction: column;
+  }
+
+  .global,
+  .presence {
+    font-size: 40px;
+  }
+
+  .presence {
+    margin-top: -40px;
+  }
+
+  .globe-image {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width: 402px) {
@@ -274,5 +452,24 @@ footer {
 
   .justify-icon {
     display: block;
+  }
+
+  .global-presence-container {
+    width: 100%;
+  }
+
+  .global,
+  .presence {
+    font-size: 30px;
+  }
+
+  .globe-image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .service {
+    width: 200px;
+    text-align: left;
   }
 }

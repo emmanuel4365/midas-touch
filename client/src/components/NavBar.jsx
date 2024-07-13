@@ -15,7 +15,7 @@ const NavBar = () => {
         </div>
         <SearchBar />
         <LinksBar />
-        <MdFormatAlignJustify className="justify-icon" />
+        <MdFormatAlignJustify className="justify-icon" cursor="pointer" />
         {/* <div className="search">Search</div> */}
         {/* <CartAndUser /> */}
       </div>

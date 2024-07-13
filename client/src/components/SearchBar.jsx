@@ -9,7 +9,7 @@ const SearchBar = () => {
         id="search-term"
         className="search-term"
       />
-      <MdSearch size={24} />
+      <MdSearch size={24} cursor="pointer" />
     </div>
   );
 };
