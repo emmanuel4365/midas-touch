@@ -258,6 +258,18 @@ header {
   padding: var(--padding-button-top-bottom) var(--padding-button-left-right);
 }
 
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
 .global-presence-container {
   width: 60%;
   max-width: 1450px;
@@ -343,24 +355,89 @@ header {
   align-items: center;
   justify-content: space-between;
   text-align: justify;
+  border: 1px solid var(--clr-border);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 16px;
+  background-color: var(--clr-border);
+  box-shadow: 0 0 10px 2px #e5e5e5;
 }
 
-/* .learning-and-development-text,
+.service-button {
+  padding-inline: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #a9ce4d;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.learning-and-development-text,
 .Coporate-Services-and-Advisories-text {
-  width: 400px;
-  min-height: 95px;
-} */
-
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 2%;
+  padding: 32px;
 }
 
-.right-arrow {
-  position: absolute;
-  top: 50%;
-  right: 2%;
+.learning-and-development-heading,
+.coporate-services-and-advisories-heading {
+  width: 100%;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* border: 1px solid var(--clr-border); */
+  background-color: var(--clr-background-white);
+}
+
+.accreditations-and-memberships-container {
+  width: 100%;
+  min-height: 1000px;
+  max-width: 1450px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.801),
+      rgba(255, 255, 255, 0.801)
+    ),
+    url("./assets/membership2-pic.jpg") center 100px / cover fixed no-repeat;
+}
+
+.accreditations-and-memberships-heading {
+  font-size: 55px;
+  font-weight: 500;
+}
+
+.memberships-logos-container {
+  width: 100%;
+  max-width: 1450px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos-center {
+  width: 97%;
+  max-width: 1500px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member-logo {
+  width: 15%;
+  background-color: var(--clr-background-white);
+}
+
+.ican,
+.citn,
+.cima {
+  width: 100%;
 }
 
 /* ===================== */

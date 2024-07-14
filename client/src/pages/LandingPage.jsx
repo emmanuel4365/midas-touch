@@ -2,6 +2,9 @@ import { useEffect } from "react";
 import { Slider } from "../components";
 import { rightClick } from "../utils/RightArrow";
 import globeGif from "../assets/globe3.gif";
+import icanLogo from "../assets/ican-logo.png";
+import citnLogo from "../assets/CITN-Logo.png";
+import cimaLogo from "../assets/cima-logo.svg";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -64,7 +67,7 @@ const LandingPage = () => {
             <button className="service-button">READ MORE</button>
           </div>
           <div className="service service2">
-            <div className="Coporate-Services-and-Advisories-heading">
+            <div className="coporate-services-and-advisories-heading">
               Corporate Services and Advisories
             </div>
             <p className="Coporate-Services-and-Advisories-text">
@@ -74,6 +77,25 @@ const LandingPage = () => {
               unde porro iste nostrum.
             </p>
             <button className="service-button">READ MORE</button>
+          </div>
+        </div>
+      </div>
+      <div className="accreditations-and-memberships-container">
+        <h1 className="accreditations-and-memberships-heading">
+          Accreditations and Memberships
+        </h1>
+        <hr width="100px" />
+        <div className="memberships-logos-container">
+          <div className="logos-center">
+            <div className="member-logo logo1">
+              <img src={icanLogo} alt="ican logo" className="ican" />
+            </div>
+            <div className="member-logo logo2">
+              <img src={citnLogo} alt="citn logo" className="citn" />
+            </div>
+            <div className="member-logo logo3">
+              <img src={cimaLogo} alt="cima logo" className="cima" />
+            </div>
           </div>
         </div>
       </div>
