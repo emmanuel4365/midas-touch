@@ -118,6 +118,7 @@ header {
 .search-bar {
   width: 14%;
   display: flex;
+  padding: 5px;
   border: 3px solid var(--clr-border);
   border-radius: 10px;
   align-items: center;
@@ -138,9 +139,45 @@ header {
   /* height: 80px; */
 }
 
-.page-link {
+.page-link > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: var(--clr-text-black);
+}
+
+.page-link {
+  position: relative;
+}
+
+.dropdown-menu {
+  background-color: #e4e4e4;
+  padding: 5px;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  display: none;
+}
+
+.page-link:hover .dropdown-menu {
+  display: block;
+}
+
+.dropup-icon {
+  display: none;
+}
+.page-link:hover .dropup-icon {
+  display: block;
+}
+
+.page-link:hover .dropdown-icon {
+  display: none;
+}
+
+.menu-list {
+  min-width: 300px;
+  list-style-type: none;
 }
 
 .justify-icon {
@@ -270,11 +307,22 @@ header {
   right: 2%;
 }
 
+.global-container {
+  width: 100%;
+  max-width: 1450px;
+  background-color: #d6e2b8;
+  display: flex;
+  padding-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .global-presence-container {
   width: 60%;
   max-width: 1450px;
   min-height: 100px;
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -421,7 +469,7 @@ header {
 }
 
 .logos-center {
-  width: 97%;
+  width: 95%;
   max-width: 1500px;
   padding: 10px;
   display: flex;
@@ -438,6 +486,19 @@ header {
 .citn,
 .cima {
   width: 100%;
+}
+
+.logo2 {
+  width: 23%;
+}
+
+.accreditations-and-memberships-text {
+  width: 95%;
+  max-width: 1450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 /* ===================== */
@@ -496,6 +557,14 @@ footer {
   .service {
     width: 500px;
   }
+
+  .accreditations-and-memberships-heading {
+    font-size: 30px;
+  }
+
+  .services-heading {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -519,6 +588,14 @@ footer {
   .globe-image {
     width: 40px;
     height: 40px;
+  }
+
+  .accreditations-and-memberships-heading {
+    font-size: 24px;
+  }
+
+  .services-heading {
+    font-size: 24px;
   }
 }
 
@@ -548,5 +625,13 @@ footer {
   .service {
     width: 200px;
     text-align: left;
+  }
+
+  .accreditations-and-memberships-heading {
+    font-size: 19px;
+  }
+
+  .services-heading {
+    font-size: 19px;
   }
 }

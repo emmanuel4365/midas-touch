@@ -5,6 +5,7 @@ import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import cimaLogo from "../assets/cima-logo.svg";
+// import underline from "../assets/underline.svg";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -15,38 +16,41 @@ const LandingPage = () => {
   return (
     <main className="landing-page">
       <Slider />
-      <div className="global-presence-container">
-        <div className="global">
-          GL
-          <img
-            src={globeGif}
-            alt="globe image"
-            width="70px"
-            height="70px"
-            className="globe-image"
-          />
-          BAL
+      <div className="global-container">
+        <div className="global-presence-container">
+          <div className="global">
+            GL
+            <img
+              src={globeGif}
+              alt="globe image"
+              width="70px"
+              height="70px"
+              className="globe-image"
+            />
+            BAL
+          </div>
+          <div className="presence">PRESENCE</div>
         </div>
-        <div className="presence">PRESENCE</div>
-      </div>
-      <div className="global-presence-text-container">
-        <p className="global-presence-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-          expedita tenetur aspernatur magni assumenda non! Quos illum nobis eum
-          eos illo, corrupti minima amet nostrum cum inventore, natus
-          consequuntur labore at possimus necessitatibus ea in sapiente nesciunt
-          explicabo. Explicabo laudantium, quis ea adipisci sunt odit. Dolores
-          obcaecati, quos laborum porro quam placeat hic temporibus labore
-          consequuntur ipsam eos neque quasi molestiae deleniti architecto
-          nihil, cum ipsum velit? Totam voluptatum, facilis neque libero minima
-          aliquam sunt nobis ipsa delectus nam omnis sit tempore fuga cumque
-          quas. Architecto, est? Iure quia, minima quasi obcaecati, totam
-          veritatis excepturi facere perferendis minus ducimus quibusdam.
-        </p>
+        <div className="global-presence-text-container">
+          <p className="global-presence-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+            expedita tenetur aspernatur magni assumenda non! Quos illum nobis
+            eum eos illo, corrupti minima amet nostrum cum inventore, natus
+            consequuntur labore at possimus necessitatibus ea in sapiente
+            nesciunt explicabo. Explicabo laudantium, quis ea adipisci sunt
+            odit. Dolores obcaecati, quos laborum porro quam placeat hic
+            temporibus labore consequuntur ipsam eos neque quasi molestiae
+            deleniti architecto nihil, cum ipsum velit? Totam voluptatum,
+            facilis neque libero minima aliquam sunt nobis ipsa delectus nam
+            omnis sit tempore fuga cumque quas. Architecto, est? Iure quia,
+            minima quasi obcaecati, totam veritatis excepturi facere perferendis
+            minus ducimus quibusdam.
+          </p>
+        </div>
       </div>
       <div className="services-container">
         <h2 className="services-heading">Our Services</h2>
-        <hr width="100px" />
+        <hr width="100px" color="#a9ce4d" />
         <br />
         <p className="services-paragraph">
           Our extensive span of services give organizations of all sizes the
@@ -84,7 +88,11 @@ const LandingPage = () => {
         <h1 className="accreditations-and-memberships-heading">
           Accreditations and Memberships
         </h1>
-        <hr width="100px" />
+        <hr width="100px" color="#a9ce4d" />
+        <p className="accreditations-and-memberships-text">
+          Our industry accreditations and memberships highlight our commitment
+          to quality and professionalism.
+        </p>
         <div className="memberships-logos-container">
           <div className="logos-center">
             <div className="member-logo logo1">
@@ -99,6 +107,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+      {/* <img src={underline} alt="" width="30px" height="20px" /> */}
     </main>
   );
 };
