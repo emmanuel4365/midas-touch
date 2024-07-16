@@ -94,7 +94,7 @@ const LandingPage = () => {
           to quality and professionalism.
         </p>
         <div className="memberships-logos-container">
-          <div className="logos-center">
+          <div className="memberships-logos-center">
             <div className="member-logo logo1">
               <img src={icanLogo} alt="ican logo" className="ican" />
             </div>
@@ -106,6 +106,65 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="our-clients-container">
+        <h1 className="our-clients-heading">Our Clients</h1>
+        <hr width="100px" color="#a9ce4d" />
+        <p className="our-clients-text">
+          We are trusted by these brands and many more to deliver transformative
+          solutions.
+        </p>
+        <div className="clients-logos-container">
+          <div className="clients-logos-center">
+            <div className="client-logo-translate-container">
+              <div className="client-logo logo1">
+                Borno Government
+                {/* <img
+                  src={BornoStateGovernmentLogo}
+                  alt="Borno State Government logo"
+                  className="Borno-State-Government"
+                /> */}
+              </div>
+              <div className="client-logo logo2">
+                Food Ratata Ltd
+                {/* <img
+                  src={FoodRatataLtdLogo}
+                  alt="Food Ratata Ltd logo"
+                  className="Food-Ratata-Ltd"
+                /> */}
+              </div>
+              <div className="client-logo logo3">
+                Sooyah Bistro Ltd
+                {/* <img
+                  src={SooyahBistroLtdLogo}
+                  alt="Sooyah Bistro Ltd logo"
+                  className="Sooyah-Bistro-Ltd"
+                /> */}
+              </div>
+              <div className="client-logo logo4">
+                Students
+                {/* <img
+                  src={StudentLogo}
+                  alt="Sooyah Bistro Ltd logo"
+                  className="Student"
+                /> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 className="learning-journey">START YOUR 2024 LEARNING JOURNEY </h4>
+        <h3>Download 2024</h3>
+        <h2>Training Calendar</h2>
+        <button type="button" className="download-button">
+          <a href="#" className="download-link">
+            DOWNLOAD
+          </a>
+        </button>
+      </div>
+      <div className="testimonial-container">
+        <h1 className="our-clients-heading">Testimonials</h1>
+        <hr width="100px" color="#a9ce4d" />
+        <h2 className="testimonial-text">What Clients Say</h2>
       </div>
       {/* <img src={underline} alt="" width="30px" height="20px" /> */}
     </main>
