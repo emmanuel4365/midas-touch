@@ -162,7 +162,7 @@ const LandingPage = () => {
         </button>
       </div>
       <div className="testimonial-container">
-        <h1 className="our-clients-heading">Testimonials</h1>
+        <h1 className="testimonial-heading">Testimonials</h1>
         <hr width="100px" color="#a9ce4d" />
         <h2 className="testimonial-text">What Clients Say</h2>
       </div>
