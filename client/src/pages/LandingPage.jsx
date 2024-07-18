@@ -165,6 +165,41 @@ const LandingPage = () => {
         <h1 className="testimonial-heading">Testimonials</h1>
         <hr width="100px" color="#a9ce4d" />
         <h2 className="testimonial-text">What Clients Say</h2>
+        <div className="testimonial-statements">
+          <div className="statement client1">
+            <p className="statement-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              accusantium optio deleniti necessitatibus cum officia. Expedita
+              accusamus dolor ullam facere.
+            </p>
+            <p className="client-status">
+              <span className="testimony-giver-name">John Doe</span>, HR
+              Manager, XYZ ltd
+            </p>
+          </div>
+          <div className="statement client2">
+            <p className="statement-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              accusantium optio deleniti necessitatibus cum officia. Expedita
+              accusamus dolor ullam facere.
+            </p>
+            <p className="client-status">
+              <span className="testimony-giver-name">John Doe</span>, HR
+              Manager, XYZ ltd
+            </p>
+          </div>
+          <div className="statement client3">
+            <p className="statement-paragraph">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+              accusantium optio deleniti necessitatibus cum officia. Expedita
+              accusamus dolor ullam facere.
+            </p>
+            <p className="client-status">
+              <span className="testimony-giver-name">John Doe</span>, HR
+              Manager, XYZ ltd
+            </p>
+          </div>
+        </div>
       </div>
       {/* <img src={underline} alt="" width="30px" height="20px" /> */}
     </main>

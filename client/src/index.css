@@ -68,7 +68,7 @@ body {
 
 header {
   width: 100%;
-  /* position: fixed; */
+  max-width: 1500px;
   height: 112.7px;
   display: flex;
   align-items: flex-start;
@@ -78,6 +78,10 @@ header {
 .home-page {
   width: 100%;
   min-height: 686px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
@@ -88,6 +92,7 @@ header {
   right: 0;
   /* z-index: 10; */
   width: 100%;
+  /* max-width: 1450px; */
   background-color: var(--clr-background-white);
   display: flex;
   align-items: center;
@@ -204,7 +209,7 @@ header {
   justify-content: center;
   position: relative;
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   height: 500px;
   overflow: hidden;
 }
@@ -309,7 +314,7 @@ header {
 
 .global-container {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   background-color: #d6e2b8;
   display: flex;
   padding-bottom: 30px;
@@ -320,7 +325,7 @@ header {
 
 .global-presence-container {
   width: 60%;
-  max-width: 1450px;
+  max-width: 1500px;
   min-height: 100px;
   margin-top: 20px;
   display: flex;
@@ -352,7 +357,7 @@ header {
 
 .global-presence-text-container {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -365,7 +370,7 @@ header {
 
 .services-container {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -440,7 +445,7 @@ header {
 .accreditations-and-memberships-container {
   width: 100%;
   min-height: 1000px;
-  max-width: 1450px;
+  max-width: 1500px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -460,7 +465,7 @@ header {
 
 .memberships-logos-container {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -495,7 +500,7 @@ header {
 .our-clients-container {
   width: 100%;
   min-height: 1000px;
-  max-width: 1450px;
+  max-width: 1500px;
   /* margin-top: 30px; */
   display: flex;
   color: var(--clr-text-white);
@@ -514,7 +519,7 @@ header {
 
 .accreditations-and-memberships-text {
   width: 95%;
-  max-width: 1450px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -523,7 +528,7 @@ header {
 
 .clients-logos-container {
   width: 100%;
-  max-width: 1450px;
+  max-width: 1500px;
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -534,7 +539,7 @@ header {
 
 .our-clients-text {
   width: 95%;
-  max-width: 1450px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -590,7 +595,7 @@ header {
 .testimonial-container {
   width: 100%;
   min-height: 1000px;
-  max-width: 1450px;
+  max-width: 1500px;
   /* margin-top: 30px; */
   display: flex;
   /* color: var(--clr-text-white); */
@@ -613,6 +618,35 @@ header {
   color: #a9ce4d;
 }
 
+.testimonial-statements {
+  width: 95%;
+  max-width: 1500px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.statement {
+  width: 32%;
+  min-height: 150px;
+  /* text-align: justify; */
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.testimony-giver-name {
+  font-weight: bold;
+}
+
 /* .ican,
 .citn,
 .cima {
@@ -628,12 +662,23 @@ header {
 footer {
   width: 100%;
   min-height: 100px;
+  max-width: 1500px;
   /* margin-top: 30px; */
   color: var(--clr-text-white);
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--clr-background-black);
+}
+
+.footer-center {
+  width: 95%;
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 /* ===================== */
 /* End of Footer */
@@ -692,6 +737,14 @@ footer {
 
   .services-heading {
     font-size: 30px;
+  }
+
+  .testimonial-statements {
+    flex-direction: column;
+  }
+
+  .statement {
+    width: 70%;
   }
 }
 
