@@ -5,6 +5,8 @@ import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import cimaLogo from "../assets/cima-logo.svg";
+import learningImage from "../assets/learning.webp";
+import advisoryImage from "../assets/advisory.webp";
 // import underline from "../assets/underline.svg";
 
 const LandingPage = () => {
@@ -62,6 +64,9 @@ const LandingPage = () => {
             <div className="learning-and-development-heading">
               Learning and Development
             </div>
+            {/* <div className="services-image-container">
+              <img src={learningImage} alt="" className="learning-image" />
+            </div> */}
             <p className="learning-and-development-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
               alias doloremque quae possimus sunt? Veniam quaerat iste ea quas
@@ -74,6 +79,9 @@ const LandingPage = () => {
             <div className="coporate-services-and-advisories-heading">
               Corporate Services and Advisories
             </div>
+            {/* <div className="services-image-container">
+              <img src={advisoryImage} alt="" className="advisory-image" />
+            </div> */}
             <p className="Coporate-Services-and-Advisories-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perspiciatis ullam placeat id autem obcaecati asperiores, corporis

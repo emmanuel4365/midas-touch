@@ -277,6 +277,7 @@ header {
 .slider-heading {
   width: 40%;
   text-align: center;
+  color: #a9ce4d;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -338,6 +339,8 @@ header {
   /* align-items: center;
   justify-content: center; */
   font-size: 70px;
+  font-weight: bold;
+  color: #a9ce4d;
 }
 
 .global,
@@ -370,6 +373,7 @@ header {
 
 .services-container {
   width: 100%;
+  min-height: 500px;
   max-width: 1500px;
   margin-top: 30px;
   display: flex;
@@ -380,7 +384,8 @@ header {
 
 .services-heading {
   font-size: 55px;
-  font-weight: 500;
+  font-weight: bold;
+  color: #a9ce4d;
 }
 
 .services-list {
@@ -402,7 +407,7 @@ header {
 
 .service {
   width: 600px;
-  min-height: 300px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -413,7 +418,7 @@ header {
   border-bottom-right-radius: 10px;
   padding-bottom: 16px;
   background-color: var(--clr-border);
-  box-shadow: 0 0 10px 2px #e5e5e5;
+  box-shadow: 0 0 10px 5px #e5e5e5;
 }
 
 .service-button {
@@ -423,23 +428,37 @@ header {
   background-color: #a9ce4d;
   font-weight: bold;
   cursor: pointer;
+  border: none;
 }
 
 .learning-and-development-text,
 .Coporate-Services-and-Advisories-text {
   padding: 32px;
+  color: var(--clr-text-white);
 }
 
 .learning-and-development-heading,
 .coporate-services-and-advisories-heading {
   width: 100%;
-  font-size: 24px;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
   /* border: 1px solid var(--clr-border); */
   background-color: var(--clr-background-white);
+  color: #a9ce4d;
+  font-weight: bold;
+}
+
+.service1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/learning.webp") center 20px / cover no-repeat;
+}
+
+.service2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./assets/advisory.webp") center 50px / cover no-repeat;
 }
 
 .accreditations-and-memberships-container {
@@ -459,8 +478,9 @@ header {
 }
 
 .accreditations-and-memberships-heading {
-  font-size: 55px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: bold;
+  color: #a9ce4d;
 }
 
 .memberships-logos-container {
@@ -513,8 +533,9 @@ header {
 }
 
 .our-clients-heading {
-  font-size: 55px;
-  font-weight: 500;
+  font-size: 45px;
+  font-weight: bold;
+  color: #a9ce4d;
 }
 
 .accreditations-and-memberships-text {
@@ -574,6 +595,9 @@ header {
 
 .learning-journey {
   margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .download-button {
@@ -616,6 +640,7 @@ header {
 
 .testimonial-heading {
   color: #a9ce4d;
+  font-size: 45px;
 }
 
 .testimonial-statements {
@@ -641,6 +666,7 @@ header {
   /* align-items: center; */
   justify-content: space-between;
   gap: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
 }
 
 .testimony-giver-name {
@@ -668,17 +694,110 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--clr-background-black);
+  /* background-color: var(--clr-background-black); */
+  background-color: #5d6e51;
 }
 
 .footer-center {
   width: 95%;
+  min-height: 100px;
   max-width: 1500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+}
+
+.footer-list-container {
+  width: 100%;
+  min-height: 500px;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+
+.logo-and-contact-container {
+  width: 30%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-logo {
+  width: 40%;
+  min-height: 50px;
+  background-color: var(--clr-background-white);
+}
+
+.footer-midas-logo {
+  width: 100%;
+  height: auto;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.company-details-container {
+  min-height: 258.833px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.company-details-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.company-details-container h3 {
+  color: #a9ce4d;
+  font-weight: bold;
+}
+
+.connect-with-us-container {
+  min-height: 258.833px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.connect-with-us-container h3 {
+  color: #a9ce4d;
+  font-weight: bold;
+}
+
+.copyright-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  width: 95%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* ===================== */
 /* End of Footer */
@@ -746,6 +865,26 @@ footer {
   .statement {
     width: 70%;
   }
+
+  .dropdown-menu {
+    top: 18px;
+  }
+
+  .footer-list-container {
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: space-around; */
+  }
+
+  .logo-and-contact-container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .footer-contact {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -769,6 +908,10 @@ footer {
   .globe-image {
     width: 40px;
     height: 40px;
+  }
+
+  .links-bar {
+    width: 250px;
   }
 
   .accreditations-and-memberships-heading {
@@ -809,10 +952,18 @@ footer {
   }
 
   .accreditations-and-memberships-heading {
-    font-size: 19px;
+    font-size: 16px;
   }
 
   .services-heading {
     font-size: 19px;
+  }
+
+  .learning-journey {
+    font-size: 14px;
+  }
+
+  .logo-links-center {
+    width: 85%;
   }
 }
