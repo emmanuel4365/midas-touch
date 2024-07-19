@@ -1,5 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HomePage, LandingPage, ErrorPage } from "./pages";
+import {
+  HomePage,
+  LandingPage,
+  ErrorPage,
+  AboutUsPage,
+  CorporateAndAdvisoryPage,
+  LearningAndDevelopmentPage,
+  ManagementTeamPage,
+} from "./pages";
 
 const router = createBrowserRouter([
   {
@@ -10,6 +18,22 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <LandingPage />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUsPage />,
+      },
+      {
+        path: "/management-team",
+        element: <ManagementTeamPage />,
+      },
+      {
+        path: "/learning-and-development",
+        element: <LearningAndDevelopmentPage />,
+      },
+      {
+        path: "/corporate-and-advisory-services",
+        element: <CorporateAndAdvisoryPage />,
       },
     ],
   },
