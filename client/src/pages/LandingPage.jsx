@@ -4,9 +4,13 @@ import { rightClick } from "../utils/RightArrow";
 import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
-import cimaLogo from "../assets/cima-logo.svg";
-import learningImage from "../assets/learning.webp";
-import advisoryImage from "../assets/advisory.webp";
+import icsanLogo from "../assets/icsan-logo.jpeg";
+import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
+import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
+import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
+import StudentLogo from "../assets/student-logo.jpeg";
+// import learningImage from "../assets/learning.webp";
+// import advisoryImage from "../assets/advisory.webp";
 // import underline from "../assets/underline.svg";
 
 const LandingPage = () => {
@@ -110,7 +114,7 @@ const LandingPage = () => {
               <img src={citnLogo} alt="citn logo" className="citn" />
             </div>
             <div className="member-logo logo3">
-              <img src={cimaLogo} alt="cima logo" className="cima" />
+              <img src={icsanLogo} alt="icsan logo" className="icsan" />
             </div>
           </div>
         </div>
@@ -126,36 +130,28 @@ const LandingPage = () => {
           <div className="clients-logos-center">
             <div className="client-logo-translate-container">
               <div className="client-logo logo1">
-                Borno Government
-                {/* <img
+                <img
                   src={BornoStateGovernmentLogo}
                   alt="Borno State Government logo"
-                  className="Borno-State-Government"
-                /> */}
+                  className="borno-state-government"
+                />
               </div>
               <div className="client-logo logo2">
-                Food Ratata Ltd
-                {/* <img
+                <img
                   src={FoodRatataLtdLogo}
                   alt="Food Ratata Ltd logo"
-                  className="Food-Ratata-Ltd"
-                /> */}
+                  className="food-ratata"
+                />
               </div>
               <div className="client-logo logo3">
-                Sooyah Bistro Ltd
-                {/* <img
+                <img
                   src={SooyahBistroLtdLogo}
                   alt="Sooyah Bistro Ltd logo"
-                  className="Sooyah-Bistro-Ltd"
-                /> */}
+                  className="sooyah-bistro"
+                />
               </div>
               <div className="client-logo logo4">
-                Students
-                {/* <img
-                  src={StudentLogo}
-                  alt="Sooyah Bistro Ltd logo"
-                  className="Student"
-                /> */}
+                <img src={StudentLogo} alt="student logo" className="student" />
               </div>
             </div>
           </div>

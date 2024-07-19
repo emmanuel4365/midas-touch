@@ -509,8 +509,9 @@ header {
 
 .ican,
 .citn,
-.cima {
+.icsan {
   width: 100%;
+  height: auto;
 }
 
 .logo2 {
@@ -549,6 +550,7 @@ header {
 
 .clients-logos-container {
   width: 100%;
+  /* min-height: 25%; */
   max-width: 1500px;
   margin-top: 30px;
   display: flex;
@@ -569,6 +571,7 @@ header {
 
 .clients-logos-center {
   width: 95%;
+  min-height: 250px;
   max-width: 1500px;
   padding: 10px;
   display: flex;
@@ -580,6 +583,7 @@ header {
 
 .client-logo-translate-container {
   width: 100%;
+  min-height: 200px;
   max-width: 1500px;
   display: flex;
   position: absolute;
@@ -590,7 +594,16 @@ header {
 
 .client-logo {
   width: 15%;
-  background-color: var(--clr-background-white);
+  height: auto;
+  /* background-color: var(--clr-background-white); */
+}
+
+.borno-state-government,
+.food-ratata,
+.sooyah-bistro,
+.student {
+  width: 100%;
+  height: auto;
 }
 
 .learning-journey {
