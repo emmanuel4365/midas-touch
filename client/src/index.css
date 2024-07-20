@@ -711,20 +711,41 @@ header {
 /* ============================== */
 .about-page {
   width: 100%;
-  min-height: 580px;
+  max-width: 1500px;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("./assets/green-tile1.webp") center / cover no-repeat;
 }
 
 .about-page-center {
-  width: 95%;
+  width: 70%;
   max-width: 1500px;
   padding: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+.about-us-paragraph {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.p2 {
+  margin: 0 20px 0 0;
+}
+
+.about-us-heading {
+  color: #a9ce4d;
+  font-weight: 800;
 }
 /* ===================== */
 /* End of About Page */
@@ -1013,6 +1034,11 @@ footer {
   .footer-contact {
     font-size: 14px;
   }
+
+  .about-us-paragraph {
+    text-align: left;
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -1048,6 +1074,11 @@ footer {
 
   .services-heading {
     font-size: 24px;
+  }
+
+  .about-us-paragraph {
+    text-align: left;
+    margin: 20px 0;
   }
 }
 
@@ -1093,5 +1124,10 @@ footer {
 
   .logo-links-center {
     width: 85%;
+  }
+
+  .about-us-paragraph {
+    text-align: left;
+    margin: 20px 0;
   }
 }
