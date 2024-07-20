@@ -1,7 +1,9 @@
 const CorporateAndAdvisoryPage = () => {
   return (
     <main className="corporate-and-advisory-page">
-      CorporateAndAdvisoryPage
+      <div className="corporate-and-advisory-page-center">
+        CorporateAndAdvisoryPage
+      </div>
     </main>
   );
 };
