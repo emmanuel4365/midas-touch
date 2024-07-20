@@ -191,7 +191,7 @@ header {
 /* ===================== */
 /* End of Header */
 
-/* Main */
+/* Landing Page */
 /* ============================== */
 
 .landing-page {
@@ -504,7 +504,7 @@ header {
 
 .member-logo {
   width: 15%;
-  background-color: var(--clr-background-white);
+  /* background-color: var(--clr-background-white); */
 }
 
 .ican,
@@ -579,9 +579,10 @@ header {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  gap: 100px;
 }
 
-.client-logo-translate-container {
+.client-logo-translate-container1 {
   width: 100%;
   min-height: 200px;
   max-width: 1500px;
@@ -589,13 +590,31 @@ header {
   position: absolute;
   align-items: center;
   justify-content: space-between;
-  animation: clientLogoAnimate 15s ease-out infinite;
+  animation: clientLogoAnimate1 15s linear infinite;
+}
+
+.client-logo-translate-container2 {
+  width: 100%;
+  min-height: 200px;
+  max-width: 1500px;
+  /* margin-left: 100px; */
+  /* padding-left: 100px; */
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateX(100%);
+  animation: clientLogoAnimate2 15s linear infinite;
 }
 
 .client-logo {
   width: 15%;
   height: auto;
   /* background-color: var(--clr-background-white); */
+}
+
+.logo5 {
+  width: 0%;
 }
 
 .borno-state-government,
@@ -685,15 +704,60 @@ header {
 .testimony-giver-name {
   font-weight: bold;
 }
-
-/* .ican,
-.citn,
-.cima {
-  width: 100%;
-} */
-
 /* ===================== */
-/* End of Main */
+/* End of Landing Page */
+
+/* About Page */
+/* ============================== */
+.about-page {
+  width: 100%;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* ===================== */
+/* End of About Page */
+
+/* Learning and Development Page */
+/* ============================== */
+.learning-and-development-page {
+  width: 100%;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* ===================== */
+/* End of Learning and Development Page */
+
+/* Corporate and Advisory Page */
+/* ============================== */
+.corporate-and-advisory-page {
+  width: 100%;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* ===================== */
+/* End of Corporate and Advisory Page */
+
+/* Management Team Page */
+/* ============================== */
+.management-team-page {
+  width: 100%;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* ===================== */
+/* End of Management Team Page */
 
 /* Footer */
 /* ============================== */
@@ -817,13 +881,23 @@ footer {
 
 /******END OF HOME PAGE******/
 
-@keyframes clientLogoAnimate {
+@keyframes clientLogoAnimate1 {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes clientLogoAnimate2 {
   from {
     transform: translateX(100%);
   }
 
   to {
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 

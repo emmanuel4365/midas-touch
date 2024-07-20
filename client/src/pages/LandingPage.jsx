@@ -128,7 +128,7 @@ const LandingPage = () => {
         </p>
         <div className="clients-logos-container">
           <div className="clients-logos-center">
-            <div className="client-logo-translate-container">
+            <div className="client-logo-translate-container1">
               <div className="client-logo logo1">
                 <img
                   src={BornoStateGovernmentLogo}
@@ -152,6 +152,38 @@ const LandingPage = () => {
               </div>
               <div className="client-logo logo4">
                 <img src={StudentLogo} alt="student logo" className="student" />
+              </div>
+              <div className="client-logo logo5">
+                {/* <img src={StudentLogo} alt="student logo" className="student" /> */}
+              </div>
+            </div>
+            <div className="client-logo-translate-container2">
+              <div className="client-logo logo1">
+                <img
+                  src={BornoStateGovernmentLogo}
+                  alt="Borno State Government logo"
+                  className="borno-state-government"
+                />
+              </div>
+              <div className="client-logo logo2">
+                <img
+                  src={FoodRatataLtdLogo}
+                  alt="Food Ratata Ltd logo"
+                  className="food-ratata"
+                />
+              </div>
+              <div className="client-logo logo3">
+                <img
+                  src={SooyahBistroLtdLogo}
+                  alt="Sooyah Bistro Ltd logo"
+                  className="sooyah-bistro"
+                />
+              </div>
+              <div className="client-logo logo4">
+                <img src={StudentLogo} alt="student logo" className="student" />
+              </div>
+              <div className="client-logo logo5">
+                {/* <img src={StudentLogo} alt="student logo" className="student" /> */}
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
 const ManagementTeamPage = () => {
-  return <div>ManagementTeamPage</div>;
+  return <main className="management-team-page">ManagementTeamPage</main>;
 };
 export default ManagementTeamPage;

@@ -1,4 +1,8 @@
 const LearningAndDevelopmentPage = () => {
-  return <div>LearningAndDevelopmentPage</div>;
+  return (
+    <main className="learning-and-development-page">
+      LearningAndDevelopmentPage
+    </main>
+  );
 };
 export default LearningAndDevelopmentPage;
