@@ -17,8 +17,12 @@ const LinksBar = () => {
         </Link>
         <div className="dropdown-menu">
           <ul className="menu-list">
-            <li>Who We Are</li>
-            <li>Management Team</li>
+            <li>
+              <Link to="/about-us">Who We Are</Link>
+            </li>
+            <li>
+              <Link to="/management-team">Management Team</Link>
+            </li>
           </ul>
         </div>
       </div>
@@ -30,8 +34,14 @@ const LinksBar = () => {
         </Link>
         <div className="dropdown-menu">
           <ul className="menu-list">
-            <li>Learning & Development</li>
-            <li>Corporate Services & Advisories</li>
+            <li>
+              <Link to="/learning-and-development">Learning & Development</Link>
+            </li>
+            <li>
+              <Link to="/corporate-and-advisory-services">
+                Corporate Services & Advisories
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
