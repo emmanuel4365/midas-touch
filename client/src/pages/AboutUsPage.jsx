@@ -2,7 +2,7 @@ const AboutUsPage = () => {
   return (
     <main className="about-page">
       <div className="about-page-center">
-        <h1 className="about-us-heading">About Us</h1>
+        <h1 className="about-us-heading">Who We Are</h1>
         <hr width="100px" color="#a9ce4d" />
         <p className="about-us-paragraph p1">
           At Midas Touch Consultancy, we are a distinguished firm of

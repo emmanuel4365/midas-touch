@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import twitterIcon from "../assets/twitter-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
-import midasLogo from "../assets/midas-touch-logo.png";
+import midasLogo from "../assets/the-midas-logo.png";
 import addressIcon from "../assets/address-icon.svg";
 import emailIcon from "../assets/email-icon.svg";
 import phoneIcon from "../assets/phone-icon.svg";
@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
         <div className="copyright-container">
           <p className="copyright">
-            &copy; {year} The Midas Touch. All rights reserved.
+            &copy; {year} The Midas Touch Consultancy. All rights reserved.
           </p>
         </div>
       </div>
