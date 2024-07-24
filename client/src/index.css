@@ -513,8 +513,8 @@ header {
 }
 
 .member-logo {
-  width: 15%;
-  /* background-color: var(--clr-background-white); */
+  width: 23%;
+  background-color: red;
 }
 
 .ican,
@@ -522,6 +522,7 @@ header {
 .icsan {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .logo2 {
