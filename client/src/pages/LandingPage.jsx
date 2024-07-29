@@ -12,7 +12,7 @@ import StudentLogo from "../assets/student-logo.jpeg";
 
 const LandingPage = () => {
   useEffect(() => {
-    let a = setInterval(rightClick, 8000);
+    let a = setInterval(rightClick, 4000);
     return () => clearInterval(a);
   }, []);
 
