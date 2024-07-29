@@ -701,6 +701,7 @@ header {
 .statement {
   width: 32%;
   min-height: 479px;
+  font-size: 12px;
   /* text-align: justify; */
   border: 1px solid white;
   background-color: white;
