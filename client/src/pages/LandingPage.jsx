@@ -9,9 +9,6 @@ import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
 import StudentLogo from "../assets/student-logo.jpeg";
-// import learningImage from "../assets/learning.webp";
-// import advisoryImage from "../assets/advisory.webp";
-// import underline from "../assets/underline.svg";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -204,35 +201,62 @@ const LandingPage = () => {
         <div className="testimonial-statements">
           <div className="statement client1">
             <p className="statement-paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-              accusantium optio deleniti necessitatibus cum officia. Expedita
-              accusamus dolor ullam facere.
+              "I'm thrilled to share my amazing experience at Midas Touch ICAN
+              Tutorial centre! My name is Shepherdess Bulus Wayar, an Accounting
+              graduate and I attended their tutorial centre for my Skills level
+              exam (May diet) and passed four out of five courses in one go! The
+              instructors were exceptional, providing personalized attention and
+              guidance that helped me excel. I'm grateful for the supportive
+              learning environment and the significant impact it had on my
+              academic success. I wholeheartedly recommend Midas Touch to anyone
+              seeking top-notch tutoring for their ICAN journey. They truly
+              deliver excellence!"
             </p>
             <p className="client-status">
-              <span className="testimony-giver-name">John Doe</span>, HR
-              Manager, XYZ ltd
+              <span className="testimony-giver-name">
+                Shepherdess Bulus Wayar
+              </span>
+              , Student, Midas Touch ICAN Tutorial centre
             </p>
           </div>
           <div className="statement client2">
             <p className="statement-paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-              accusantium optio deleniti necessitatibus cum officia. Expedita
-              accusamus dolor ullam facere.
+              "MIDAS TOUCH reassured me to believe in myself. I registered as an
+              ICAN student a decade ago, sat for two diets, and gave up. This
+              year, the center was recommended for me, and I accepted. I
+              registered, attended and participated in the class, sat for May
+              2024 diet and cleared 2 out of 3 papers. I would say that I
+              deserved failing PSAF because I also didn't do justice to it.
+              MIDAS Touch is a place to be. Full of potentials to influence you
+              academically, business wise, and in general decisions of live.
+              Choose MidasTouch and be touched."
             </p>
             <p className="client-status">
-              <span className="testimony-giver-name">John Doe</span>, HR
-              Manager, XYZ ltd
+              <span className="testimony-giver-name">Joy Malgwi</span>, Student,
+              Midas Touch ICAN Tutorial centre
             </p>
           </div>
           <div className="statement client3">
             <p className="statement-paragraph">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-              accusantium optio deleniti necessitatibus cum officia. Expedita
-              accusamus dolor ullam facere.
+              "As the Chief Operating Officer of Food Ratata Ltd, I am delighted
+              to share our positive experience with Midas Touch Consult. Their
+              services have significantly transformed our operations,
+              particularly in reducing costs and minimizing waste through their
+              sound internal controls. Midas Touch Consult conducted a thorough
+              analysis of our processes and implemented tailored internal
+              control systems that have enhanced our efficiency. Their expert
+              guidance helped us identify and eliminate unnecessary expenses,
+              streamline our inventory management, and optimize resource
+              utilization. As a result, we have seen a substantial reduction in
+              waste and a marked improvement in our cost-saving measures. We
+              highly recommend Midas Touch Consult to any organization seeking
+              to enhance their internal controls, reduce costs, and boost
+              profitability. Their expertise and dedication make them an
+              invaluable partner in business success."
             </p>
             <p className="client-status">
-              <span className="testimony-giver-name">John Doe</span>, HR
-              Manager, XYZ ltd
+              <span className="testimony-giver-name">Eboh Precious</span>, Chief
+              Operating Officer, Food Ratata Ltd
             </p>
           </div>
         </div>

@@ -700,7 +700,7 @@ header {
 
 .statement {
   width: 32%;
-  min-height: 150px;
+  min-height: 479px;
   /* text-align: justify; */
   border: 1px solid white;
   background-color: white;
@@ -837,7 +837,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background: url("./assets/green-tile3.jpg") center / cover no-repeat;
+  background: url("./assets/testimonial-background.jpg") center / cover
+    no-repeat;
 }
 
 .management-team-page-center {

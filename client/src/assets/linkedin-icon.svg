@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   viewBox="0 0 92 93"
+   width="32"
+   height="32"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="linkedin-icon.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="5.9032258"
+     inkscape:cx="46.076503"
+     inkscape:cy="46.5"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     fill="#069"
+     height="91.5618"
+     rx="45.7809"
+     width="91.5618"
+     y=".561523"
+     id="rect1"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     d="m35.2487 64.8957v-24.7335h-8.2138v24.7335h8.2146zm-4.1052-28.1099c2.8637 0 4.6465-1.8992 4.6465-4.2727-.0536-2.4276-1.7828-4.2738-4.592-4.2738-2.8112 0-4.6472 1.8462-4.6472 4.2736 0 2.3735 1.7822 4.2727 4.5389 4.2727h.0532zm8.6516 28.1099h8.2131v-13.8108c0-.7383.0536-1.4784.2705-2.0057.5935-1.4776 1.945-3.007 4.2145-3.007 2.9714 0 4.1607 2.2679 4.1607 5.5932v13.2303h8.2129v-14.1814c0-7.5968-4.0516-11.132-9.4554-11.132-4.4304 0-6.3762 2.4785-7.4573 4.1666h.0547v-3.5858h-8.2133c.1072 2.3202-.0006 24.7334-.0006 24.7334z"
+     fill="#fff"
+     id="path1"
+     style="fill:#000000;fill-opacity:1" />
+</svg>

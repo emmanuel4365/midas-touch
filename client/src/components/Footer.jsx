@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import twitterIcon from "../assets/twitter-icon.svg";
+import linkedInIcon from "../assets/linkedin-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
 import facebookIcon from "../assets/facebook-icon.svg";
 import midasLogo from "../assets/the-midas-logo.png";
@@ -56,7 +56,7 @@ const Footer = () => {
             <h3>CONNECT WITH US</h3>
             <div className="footer-icon">
               <Link>
-                <img src={twitterIcon} alt="twitter icon" />
+                <img src={linkedInIcon} alt="linkedin icon" />
               </Link>
             </div>
             <div className="footer-icon">
