@@ -1,6 +1,6 @@
-import cityPhoto from "../assets/city-photo3.jpg";
-import bridgePhoto from "../assets/bridge-photo2.jpg";
-import roadPhoto from "../assets/road-photo.jpg";
+import cityPhoto from "../assets/slider-photo1.jpg";
+import bridgePhoto from "../assets/slider-photo2.png";
+import roadPhoto from "../assets/slider-photo3.jpg";
 import { rightClick } from "../utils/RightArrow";
 import { leftClick } from "../utils/LeftArrow";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
@@ -15,7 +15,7 @@ const Slider = () => {
           data-translate="0"
           data-selected="true"
         >
-          <img src={cityPhoto} alt="city photo" />
+          <img src={cityPhoto} alt="city photo" className="slider-photo1" />
           <div className="overlay"></div>
           <div
             className="text-button-container"

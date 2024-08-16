@@ -70,7 +70,7 @@ body {
 header {
   width: 100%;
   max-width: 1500px;
-  height: 112.7px;
+  height: 200.7px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -265,13 +265,13 @@ header {
   position: relative;
   width: 100%;
   max-width: 1500px;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 
 .image-container {
   width: 100%;
-  height: 500px;
+  height: 600px;
   display: flex;
   position: relative;
   align-items: center;
@@ -285,7 +285,7 @@ header {
   position: absolute;
   justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
   /* background: url(./assets/city-photo2.jpg) center/cover; */
 }
@@ -302,11 +302,9 @@ header {
   transform: translateX(200%);
 }
 
-/* .city-photo {
-  width: 100%;
-  height: auto;
-  position: absolute;
-} */
+.slider-photo1 {
+  object-position: bottom;
+}
 
 .overlay {
   width: 100%;
