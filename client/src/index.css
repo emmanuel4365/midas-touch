@@ -173,6 +173,15 @@ header {
   /* height: 80px; */
 }
 
+.home-link {
+  background: linear-gradient(
+    to right,
+    rgba(110, 248, 7, 1) 54%,
+    rgba(64, 146, 4, 1)
+  );
+  padding-inline: 4px;
+}
+
 .page-link > a {
   display: flex;
   align-items: center;
