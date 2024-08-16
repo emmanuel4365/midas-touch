@@ -190,6 +190,11 @@ header {
   color: var(--clr-text-black);
 }
 
+.page-link .home-link {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+
 .page-link {
   position: relative;
 }
