@@ -1,4 +1,4 @@
-import cityPhoto from "../assets/slider-photo1.jpg";
+import cityPhoto from "../assets/slider-photo1-new.jpg";
 import bridgePhoto from "../assets/slider-photo2.png";
 import roadPhoto from "../assets/slider-photo3.jpg";
 import { rightClick } from "../utils/RightArrow";

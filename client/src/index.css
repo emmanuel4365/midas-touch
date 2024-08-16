@@ -395,6 +395,20 @@ header {
   height: auto;
 }
 
+.after-slider-writeup-and-button {
+  width: 70%;
+  min-height: 300px;
+  padding-inline: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.after-slider-writeup {
+  text-align: justify;
+}
+
 .global-presence-container {
   width: 60%;
   max-width: 1500px;

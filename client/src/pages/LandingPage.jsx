@@ -24,7 +24,13 @@ const LandingPage = () => {
         <div className="after-slider-midas-logo-container">
           <img src={midasLogo} alt="" className="after-slider-midas-logo" />
         </div>
-        <div className="after-slider-writeup-and-button"></div>
+        <div className="after-slider-writeup-and-button">
+          <p className="after-slider-writeup">
+            <strong>Midas Touch Consultancy</strong> is the first and leading
+            management consulting firm in Nigeria providing human resources and
+            educational services to our clients across Nigeria for over 5 years.
+          </p>
+        </div>
       </div>
       <div className="services-container">
         <h2 className="services-heading">Our Services</h2>
