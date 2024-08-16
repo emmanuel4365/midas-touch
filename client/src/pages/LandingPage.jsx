@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Slider } from "../components";
 import { rightClick } from "../utils/RightArrow";
-import globeGif from "../assets/globe3.gif";
+// import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import icsanLogo from "../assets/icsan-logo.jpeg";
@@ -9,6 +9,7 @@ import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
 import StudentLogo from "../assets/student-logo.jpeg";
+import midasLogo from "../assets/midas-touch-logo.png";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -19,37 +20,11 @@ const LandingPage = () => {
   return (
     <main className="landing-page">
       <Slider />
-      <div className="global-container">
-        <div className="global-presence-container">
-          <div className="global">
-            GL
-            <img
-              src={globeGif}
-              alt="globe image"
-              width="70px"
-              height="70px"
-              className="globe-image"
-            />
-            BAL
-          </div>
-          <div className="presence">PRESENCE</div>
+      <div className="after-slider-container">
+        <div className="after-slider-midas-logo-container">
+          <img src={midasLogo} alt="" className="after-slider-midas-logo" />
         </div>
-        <div className="global-presence-text-container">
-          <p className="global-presence-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            expedita tenetur aspernatur magni assumenda non! Quos illum nobis
-            eum eos illo, corrupti minima amet nostrum cum inventore, natus
-            consequuntur labore at possimus necessitatibus ea in sapiente
-            nesciunt explicabo. Explicabo laudantium, quis ea adipisci sunt
-            odit. Dolores obcaecati, quos laborum porro quam placeat hic
-            temporibus labore consequuntur ipsam eos neque quasi molestiae
-            deleniti architecto nihil, cum ipsum velit? Totam voluptatum,
-            facilis neque libero minima aliquam sunt nobis ipsa delectus nam
-            omnis sit tempore fuga cumque quas. Architecto, est? Iure quia,
-            minima quasi obcaecati, totam veritatis excepturi facere perferendis
-            minus ducimus quibusdam.
-          </p>
-        </div>
+        <div className="after-slider-writeup-and-button"></div>
       </div>
       <div className="services-container">
         <h2 className="services-heading">Our Services</h2>
