@@ -108,7 +108,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #5d6e51;
+  background-color: hsl(94, 90%, 16%);
 }
 
 .top-address-center {
@@ -119,6 +119,7 @@ header {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  color: white;
 }
 
 .top-address-contact {
