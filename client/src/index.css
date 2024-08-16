@@ -96,9 +96,36 @@ header {
   /* max-width: 1450px; */
   background-color: var(--clr-background-white);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   /* flex-direction: row; */
+}
+
+.top-address-bar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5d6e51;
+}
+
+.top-address-center {
+  width: 97%;
+  max-width: 1500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.top-address-contact {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .logo-links-center {
