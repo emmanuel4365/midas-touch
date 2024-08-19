@@ -36,7 +36,13 @@ const LandingPage = () => {
           LEARN MORE
         </button>
       </div>
-      <div className="audit-compliance-container"></div>
+      <div className="audit-compliance-container">
+        <h1 className="audit-compliance-heading">Audit and Compliance:</h1>
+        <p className="audit-compliance-paragraph">
+          Let Us Help You Navigate The Complexity of Regulatory, Donor And
+          Internal Policy Compliance and Audit
+        </p>
+      </div>
       <div className="services-container">
         <h2 className="services-heading">Our Services</h2>
         <hr width="100px" color="#a9ce4d" />
