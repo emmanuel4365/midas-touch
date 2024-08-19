@@ -5,6 +5,8 @@ import { rightClick } from "../utils/RightArrow";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import icsanLogo from "../assets/icsan-logo.jpeg";
+import service1Photo from "../assets/service1-image.jpg";
+import service2Photo from "../assets/service2-image.jpg";
 import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
@@ -57,33 +59,23 @@ const LandingPage = () => {
         </p>
         <div className="services-list">
           <div className="service service1">
-            <div className="learning-and-development-heading">
-              Learning and Development
+            <div className="service1-image-container">
+              <img src={service1Photo} alt="" className="service1-image" />
             </div>
-            {/* <div className="services-image-container">
-              <img src={learningImage} alt="" className="learning-image" />
-            </div> */}
-            <p className="learning-and-development-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              alias doloremque quae possimus sunt? Veniam quaerat iste ea quas
-              ipsa explicabo iusto mollitia animi numquam quam, enim nesciunt
-              nisi.
-            </p>
+
+            <h2 className="service1-heading">Corporate Services</h2>
+            {/* <div className="service1-underline"></div> */}
+            <hr width="95%" color="#409204" />
             <button className="service-button">READ MORE</button>
           </div>
           <div className="service service2">
-            <div className="coporate-services-and-advisories-heading">
-              Corporate Services and Advisories
+            <div className="service2-image-container">
+              <img src={service2Photo} alt="" className="service2-image" />
             </div>
-            {/* <div className="services-image-container">
-              <img src={advisoryImage} alt="" className="advisory-image" />
-            </div> */}
-            <p className="Coporate-Services-and-Advisories-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perspiciatis ullam placeat id autem obcaecati asperiores, corporis
-              fuga vel sequi earum accusamus delectus harum quod aperiam iure
-              unde porro iste nostrum.
-            </p>
+
+            <h2 className="service2-heading">Learning & development</h2>
+            {/* <div className="service2-underline"></div> */}
+            <hr width="95%" color="#409204" />
             <button className="service-button">READ MORE</button>
           </div>
         </div>

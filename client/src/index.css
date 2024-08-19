@@ -480,7 +480,7 @@ header {
   min-height: 500px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   text-align: justify;
   border: 1px solid var(--clr-border);
@@ -491,11 +491,36 @@ header {
   box-shadow: 0 0 10px 5px #e5e5e5;
 }
 
+.service1-image-container,
+.service2-image-container {
+  width: 100%;
+  min-height: 100px;
+}
+
+.service1-image,
+.service2-image {
+  width: 100%;
+  height: auto;
+}
+
+/* .service1-underline {
+  width: 95%;
+  height: 1px;
+  background-color: #409204;
+}
+.service2-underline {
+  width: 95%;
+  height: 1px;
+  background-color: #409204;
+} */
+
 .service-button {
   padding-inline: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  background-color: #a9ce4d;
+  background: none;
+  color: #409204;
+  /* background-color: #a9ce4d; */
   font-weight: bold;
   cursor: pointer;
   border: none;
@@ -521,7 +546,7 @@ header {
   font-weight: bold;
 }
 
-.service1 {
+/* .service1 {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("./assets/learning.webp") center 20px / cover no-repeat;
 }
@@ -529,7 +554,7 @@ header {
 .service2 {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("./assets/advisory.webp") center 50px / cover no-repeat;
-}
+} */
 
 .accreditations-and-memberships-container {
   width: 100%;
