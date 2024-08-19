@@ -44,8 +44,11 @@ const LandingPage = () => {
         </p>
       </div>
       <div className="services-container">
+        <div className="services-dots">
+          <div className="services-dot-left"></div>
+          <div className="services-dot-right"></div>
+        </div>
         <h2 className="services-heading">Our Services</h2>
-        <hr width="100px" color="#a9ce4d" />
         <br />
         <p className="services-paragraph">
           Our extensive span of services give organizations of all sizes the
