@@ -20,18 +20,23 @@ const LandingPage = () => {
   return (
     <main className="landing-page">
       <Slider />
-      <div className="after-slider-container">
-        <div className="after-slider-midas-logo-container">
-          <img src={midasLogo} alt="" className="after-slider-midas-logo" />
-        </div>
-        <div className="after-slider-writeup-and-button">
-          <p className="after-slider-writeup">
-            <strong>Midas Touch Consultancy</strong> is the first and leading
-            management consulting firm in Nigeria providing human resources and
-            educational services to our clients across Nigeria for over 5 years.
-          </p>
-        </div>
+      <div className="ican-ats-container">
+        <h1 className="ican-ats-heading">ICAN/ATS Exams:</h1>
+        <h2 className="ican-ats-subheading">
+          Become A Chartered Accountant With Ease! Let’s Hold Your hand on this
+          Journey.
+        </h2>
+        <p className="ican-ats-paragraph">
+          Let us ease the stress of your ICAN Exams with our personalized,
+          expert tutorial services tailored to fit your needs and schedule. Rely
+          on us to guide you successfully on your path to becoming a Chartered
+          Accountant.
+        </p>
+        <button type="button" className="ican-ats-button">
+          LEARN MORE
+        </button>
       </div>
+      <div className="audit-compliance-container"></div>
       <div className="services-container">
         <h2 className="services-heading">Our Services</h2>
         <hr width="100px" color="#a9ce4d" />
