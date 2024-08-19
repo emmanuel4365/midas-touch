@@ -1,6 +1,6 @@
 import cityPhoto from "../assets/slider-photo1-new.jpg";
 import bridgePhoto from "../assets/slider-photo2.png";
-import roadPhoto from "../assets/slider-photo3.jpg";
+import roadPhoto from "../assets/ican-ats-background-pic.jpg";
 import { rightClick } from "../utils/RightArrow";
 import { leftClick } from "../utils/LeftArrow";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
