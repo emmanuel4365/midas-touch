@@ -330,7 +330,7 @@ header {
 .slider-heading {
   width: 40%;
   text-align: center;
-  color: #a9ce4d;
+  color: #fff;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -346,13 +346,17 @@ header {
 
 .slider-button {
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   cursor: pointer;
-  background-color: #a9ce4d;
-  color: var(--clr-text-black);
+  background-color: rgba(110, 248, 7, 1);
+  color: var(--clr-text-white);
   font-weight: 600;
   padding: var(--padding-button-top-bottom) var(--padding-button-left-right);
 }
+
+/* .slider-button-text{
+  
+} */
 
 .left-arrow {
   position: absolute;

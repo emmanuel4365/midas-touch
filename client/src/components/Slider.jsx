@@ -22,15 +22,22 @@ const Slider = () => {
             // title="Photo by Marc-Olivier Jodoin on Unsplash"
           >
             <h1 className="slider-heading heading1">
-              Bridge the knowledge gap in your workforce
+              Improve your organization’s performance and industry ratings, stay
+              ahead of the curve with our tax, finance, audit, inventory and
+              Business management solutions.
             </h1>
             <p className="slider-sub-heading sub-heading1">
-              Equipping the workforce with the requisite skills to advance the
-              growth of the organization as industry demands.
+              Let’s make tax filing and auditing a seamless process for your
+              company.
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                BOOk A CONSULTATION
+                <h4
+                  className="slider-button-text"
+                  style={{ textShadow: "0px 4px 4px 0px black" }}
+                >
+                  LEARN MORE
+                </h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
@@ -51,15 +58,17 @@ const Slider = () => {
             // title="Photo by Jeremy Doddridge on Unsplash"
           >
             <h1 className="slider-heading heading1">
-              Bridge the knowledge gap in your workforce
+              Improve your organization’s performance and industry ratings, stay
+              ahead of the curve with our tax, finance, audit, inventory and
+              Business management solutions.
             </h1>
             <p className="slider-sub-heading sub-heading1">
-              Equipping the workforce with the requisite skills to advance the
-              growth of the organization as industry demands.
+              Let’s make tax filing and auditing a seamless process for your
+              company.
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                BOOk A CONSULTATION
+                <h4 className="slider-button-text">LEARN MORE</h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
@@ -80,15 +89,17 @@ const Slider = () => {
             // title="Photo by Maick Maciel on Unsplash"
           >
             <h1 className="slider-heading heading1">
-              Bridge the knowledge gap in your workforce
+              Improve your organization’s performance and industry ratings, stay
+              ahead of the curve with our tax, finance, audit, inventory and
+              Business management solutions.
             </h1>
             <p className="slider-sub-heading sub-heading1">
-              Equipping the workforce with the requisite skills to advance the
-              growth of the organization as industry demands.
+              Let’s make tax filing and auditing a seamless process for your
+              company.
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                BOOk A CONSULTATION
+                <h4 className="slider-button-text">LEARN MORE</h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
