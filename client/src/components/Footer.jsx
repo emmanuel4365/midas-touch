@@ -47,10 +47,10 @@ const Footer = () => {
           <div className="company-details-container">
             <h3>COMPANY</h3>
             <div className="footer-link about-us">
-              <Link>About Us</Link>
+              <Link to="/about-us">About Us</Link>
             </div>
             <div className="footer-link contact-us">
-              <Link>Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </div>
             <div className="footer-link faqs">
               <Link>FAQs</Link>
