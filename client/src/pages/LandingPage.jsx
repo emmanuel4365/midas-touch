@@ -221,10 +221,13 @@ const LandingPage = () => {
       </div>
       {/* <img src={underline} alt="" width="30px" height="20px" /> */}
       <div className="accreditations-and-memberships-container">
+        <div className="accreditations-dots dots">
+          <div className="accreditations-dot-left dot-left"></div>
+          <div className="accreditations-dot-right dot-right"></div>
+        </div>
         <h1 className="accreditations-and-memberships-heading">
           Accreditations and Memberships
         </h1>
-        <hr width="100px" color="#a9ce4d" />
         <p className="accreditations-and-memberships-text">
           Our industry accreditations and memberships highlight our commitment
           to quality and professionalism.
