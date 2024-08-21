@@ -4,6 +4,7 @@ import slider3Photo from "../assets/slider-photo2.png";
 import { rightClick } from "../utils/RightArrow";
 import { leftClick } from "../utils/LeftArrow";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -36,7 +37,9 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">LEARN MORE</h4>
+                <h4 className="slider-button-text">
+                  <Link to="/corporate-and-advisory-services">LEARN MORE</Link>
+                </h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
@@ -69,7 +72,9 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">LEARN MORE</h4>
+                <h4 className="slider-button-text">
+                  <Link to="/learning-and-development">LEARN MORE</Link>
+                </h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
@@ -96,7 +101,9 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">LEARN MORE</h4>
+                <h4 className="slider-button-text">
+                  <Link to="/corporate-and-advisory-services">LEARN MORE</Link>
+                </h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING

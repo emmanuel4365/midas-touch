@@ -349,14 +349,14 @@ header {
   /* border-radius: 10px; */
   cursor: pointer;
   background-color: rgba(110, 248, 7, 1);
-  color: var(--clr-text-white);
-  font-weight: 600;
   padding: var(--padding-button-top-bottom) var(--padding-button-left-right);
 }
 
-/* .slider-button-text{
-  
-} */
+.slider-button a {
+  text-decoration: none;
+  color: var(--clr-text-white);
+  font-weight: 600;
+}
 
 .left-arrow {
   position: absolute;
@@ -515,6 +515,18 @@ header {
     rgba(110, 248, 7, 1) 54%,
     rgba(64, 146, 4, 1)
   );
+  color: var(--clr-text-white);
+  font-weight: bold;
+}
+
+.service-button a {
+  text-decoration: none;
+  color: #409204;
+  font-weight: bold;
+}
+
+.service-empower-button a {
+  text-decoration: none;
   color: var(--clr-text-white);
   font-weight: bold;
 }

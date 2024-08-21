@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Slider } from "../components";
 import { rightClick } from "../utils/RightArrow";
+
 // import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
@@ -13,6 +14,7 @@ import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
 import StudentLogo from "../assets/student-logo.jpeg";
 import midasLogo from "../assets/midas-touch-logo.png";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   useEffect(() => {
@@ -44,7 +46,9 @@ const LandingPage = () => {
             <h2 className="service1-heading">Corporate Services</h2>
             {/* <div className="service1-underline"></div> */}
             <hr width="95%" color="#409204" />
-            <button className="service-button">READ MORE</button>
+            <button className="service-button">
+              <Link to="/corporate-and-advisory-services">READ MORE</Link>
+            </button>
           </div>
           <div className="service service2">
             <div className="service2-image-container">
@@ -54,7 +58,9 @@ const LandingPage = () => {
             <h2 className="service2-heading">Learning & development</h2>
             {/* <div className="service2-underline"></div> */}
             <hr width="95%" color="#409204" />
-            <button className="service-button">READ MORE</button>
+            <button className="service-button">
+              <Link to="/learning-and-development">READ MORE</Link>
+            </button>
           </div>
         </div>
       </div>
@@ -77,7 +83,9 @@ const LandingPage = () => {
             Maiduguri, we have proudly served clients for the past five years,
             delivering excellence across a broad spectrum of services.
           </p>
-          <button className="service-empower-button">MORE ABOUT US</button>
+          <button className="service-empower-button">
+            <Link to="/about-us">MORE ABOUT US</Link>
+          </button>
         </div>
       </div>
       <div className="our-clients-container">
