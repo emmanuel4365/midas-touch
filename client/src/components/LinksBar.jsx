@@ -20,9 +20,9 @@ const LinksBar = () => {
             <li>
               <Link to="/about-us">Who We Are</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/management-team">Management Team</Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
