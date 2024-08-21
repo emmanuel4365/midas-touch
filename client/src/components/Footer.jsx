@@ -33,6 +33,10 @@ const Footer = () => {
               </div>
               <div className="contact address">
                 <img src={addressIcon} alt="" />
+                <span>23 Kunle Ogungba Street, Lekki, Lagos</span>
+              </div>
+              <div className="contact address">
+                <img src={addressIcon} alt="" />
                 <span>
                   ICAN Regional Building, State Secretariat, Maiduguri, Borno
                   State.
