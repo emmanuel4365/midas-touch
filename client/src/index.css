@@ -509,8 +509,13 @@ header {
   padding-inline: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
-  /* background: none; */
-  color: #409204;
+  background: linear-gradient(
+    to right,
+    rgba(110, 248, 7, 1) 54%,
+    rgba(64, 146, 4, 1)
+  );
+  color: var(--clr-text-white);
+  font-weight: bold;
 }
 
 .learning-and-development-text,
