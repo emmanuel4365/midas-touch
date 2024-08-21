@@ -7,6 +7,7 @@ import citnLogo from "../assets/CITN-Logo.png";
 import icsanLogo from "../assets/icsan-logo.jpeg";
 import service1Photo from "../assets/service1-image.jpg";
 import service2Photo from "../assets/service2-image.jpg";
+import serviceEmpowerPhoto from "../assets/service-empower-image.jpg";
 import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
@@ -80,27 +81,26 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="accreditations-and-memberships-container">
-        <h1 className="accreditations-and-memberships-heading">
-          Accreditations and Memberships
-        </h1>
-        <hr width="100px" color="#a9ce4d" />
-        <p className="accreditations-and-memberships-text">
-          Our industry accreditations and memberships highlight our commitment
-          to quality and professionalism.
-        </p>
-        <div className="memberships-logos-container">
-          <div className="memberships-logos-center">
-            <div className="member-logo logo1">
-              <img src={icanLogo} alt="ican logo" className="ican" />
-            </div>
-            <div className="member-logo logo2">
-              <img src={citnLogo} alt="citn logo" className="citn" />
-            </div>
-            <div className="member-logo logo3">
-              <img src={icsanLogo} alt="icsan logo" className="icsan" />
-            </div>
-          </div>
+      <div className="service-empower-section-container">
+        <div className="service-empower-image-container">
+          <img
+            src={serviceEmpowerPhoto}
+            alt=""
+            className="service-empower-photo"
+          />
+        </div>
+        <div className="service-empower-writeup-container">
+          <h2 className="service-empower-heading">
+            Empowering individuals, Advancing organizations.
+          </h2>
+          <p className="service-empower-paragraph">
+            At The Midas Touch Consultancy, we are a premier consulting firm
+            dedicated to empowering individuals and organizations with expert
+            guidance and innovative solutions. With offices in Lagos and
+            Maiduguri, we have proudly served clients for the past five years,
+            delivering excellence across a broad spectrum of services.
+          </p>
+          <button className="service-empower-button">MORE ABOUT US</button>
         </div>
       </div>
       <div className="our-clients-container">
@@ -249,6 +249,29 @@ const LandingPage = () => {
         </div>
       </div>
       {/* <img src={underline} alt="" width="30px" height="20px" /> */}
+      <div className="accreditations-and-memberships-container">
+        <h1 className="accreditations-and-memberships-heading">
+          Accreditations and Memberships
+        </h1>
+        <hr width="100px" color="#a9ce4d" />
+        <p className="accreditations-and-memberships-text">
+          Our industry accreditations and memberships highlight our commitment
+          to quality and professionalism.
+        </p>
+        <div className="memberships-logos-container">
+          <div className="memberships-logos-center">
+            <div className="member-logo logo1">
+              <img src={icanLogo} alt="ican logo" className="ican" />
+            </div>
+            <div className="member-logo logo2">
+              <img src={citnLogo} alt="citn logo" className="citn" />
+            </div>
+            <div className="member-logo logo3">
+              <img src={icsanLogo} alt="icsan logo" className="icsan" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 };

@@ -526,6 +526,47 @@ header {
   border: none;
 }
 
+.service-empower-section-container {
+  width: 100%;
+  min-height: 500px;
+  max-width: 1500px;
+  margin-top: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service-empower-image-container {
+  width: 40%;
+  min-height: 400px;
+}
+
+.service-empower-photo {
+  width: 100%;
+  height: auto;
+}
+
+.service-empower-writeup-container {
+  width: 40%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.service-empower-button {
+  padding-inline: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /* background: none; */
+  color: #409204;
+}
+
 .learning-and-development-text,
 .Coporate-Services-and-Advisories-text {
   padding: 32px;

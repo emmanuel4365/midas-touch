@@ -1,6 +1,6 @@
-import cityPhoto from "../assets/slider-photo1-new.jpg";
-import bridgePhoto from "../assets/slider-photo2.png";
-import roadPhoto from "../assets/ican-ats-background-pic.jpg";
+import slider1Photo from "../assets/slider-photo1-new.jpg";
+import slider2Photo from "../assets/ican-ats-background-pic.jpg";
+import slider3Photo from "../assets/slider-photo2.png";
 import { rightClick } from "../utils/RightArrow";
 import { leftClick } from "../utils/LeftArrow";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
@@ -15,7 +15,7 @@ const Slider = () => {
           data-translate="0"
           data-selected="true"
         >
-          <img src={cityPhoto} alt="city photo" className="slider-photo1" />
+          <img src={slider1Photo} alt="city photo" className="slider-photo1" />
           <div className="overlay"></div>
           <div
             className="text-button-container"
@@ -32,12 +32,7 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4
-                  className="slider-button-text"
-                  style={{ textShadow: "0px 4px 4px 0px black" }}
-                >
-                  LEARN MORE
-                </h4>
+                <h4 className="slider-button-text">LEARN MORE</h4>
               </button>
               {/* <button type="button" className="slider-button button2">
                 REGISTER FOR TRAINING
@@ -51,7 +46,7 @@ const Slider = () => {
           data-translate="100"
           data-selected="false"
         >
-          <img src={bridgePhoto} alt="bridge photo" />
+          <img src={slider2Photo} alt="bridge photo" />
           <div className="overlay"></div>
           <div
             className="text-button-container"
@@ -82,7 +77,7 @@ const Slider = () => {
           data-translate="200"
           data-selected="false"
         >
-          <img src={roadPhoto} alt="road photo" />
+          <img src={slider3Photo} alt="road photo" />
           <div className="overlay"></div>
           <div
             className="text-button-container"
