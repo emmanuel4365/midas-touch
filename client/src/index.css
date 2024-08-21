@@ -370,65 +370,11 @@ header {
   right: 2%;
 }
 
-.ican-ats-container {
-  width: 100%;
-  min-height: 700px;
-  max-width: 1500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./assets/ican-ats-background-pic.jpg") center 1px / cover no-repeat;
-  display: flex;
-  /* padding-bottom: 30px; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--clr-text-white);
-  margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 50px;
-}
-
-.ican-ats-subheading {
-  width: 50%;
-  text-align: center;
-}
-
-.ican-ats-paragraph {
-  width: 55%;
-  text-align: center;
-}
-
-.ican-ats-button {
-  border: none;
-  /* border-radius: 10px; */
-  cursor: pointer;
-  background-color: rgba(110, 248, 7, 1);
-  color: var(--clr-text-white);
-  font-weight: 600;
-  padding: var(--padding-button-top-bottom) var(--padding-button-left-right);
-}
-
-.audit-compliance-container {
-  width: 100%;
-  min-height: 700px;
-  max-width: 1500px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./assets/slider-photo2.png") center / cover no-repeat;
-  display: flex;
-  /* padding-bottom: 30px; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--clr-text-white);
-  /* margin-top: 50px; */
-  margin-bottom: 50px;
-  gap: 200px;
-}
-
 .services-container {
   width: 100%;
   min-height: 500px;
   max-width: 1500px;
-  /* margin-top: 30px; */
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

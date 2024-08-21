@@ -23,29 +23,6 @@ const LandingPage = () => {
   return (
     <main className="landing-page">
       <Slider />
-      <div className="ican-ats-container">
-        <h1 className="ican-ats-heading">ICAN/ATS Exams:</h1>
-        <h2 className="ican-ats-subheading">
-          Become A Chartered Accountant With Ease! Let’s Hold Your hand on this
-          Journey.
-        </h2>
-        <p className="ican-ats-paragraph">
-          Let us ease the stress of your ICAN Exams with our personalized,
-          expert tutorial services tailored to fit your needs and schedule. Rely
-          on us to guide you successfully on your path to becoming a Chartered
-          Accountant.
-        </p>
-        <button type="button" className="ican-ats-button">
-          LEARN MORE
-        </button>
-      </div>
-      <div className="audit-compliance-container">
-        <h1 className="audit-compliance-heading">Audit and Compliance:</h1>
-        <p className="audit-compliance-paragraph">
-          Let Us Help You Navigate The Complexity of Regulatory, Donor And
-          Internal Policy Compliance and Audit
-        </p>
-      </div>
       <div className="services-container">
         <div className="services-dots">
           <div className="services-dot-left"></div>
