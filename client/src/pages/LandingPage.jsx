@@ -24,9 +24,9 @@ const LandingPage = () => {
     <main className="landing-page">
       <Slider />
       <div className="services-container">
-        <div className="services-dots">
-          <div className="services-dot-left"></div>
-          <div className="services-dot-right"></div>
+        <div className="services-dots dots">
+          <div className="services-dot-left dot-left"></div>
+          <div className="services-dot-right dot-right"></div>
         </div>
         <h2 className="services-heading">Our Services</h2>
         <br />
@@ -81,8 +81,11 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="our-clients-container">
+        <div className="our-clients-dots dots">
+          <div className="our-clients-dot-left dot-left"></div>
+          <div className="our-clients-dot-right dot-right"></div>
+        </div>
         <h1 className="our-clients-heading">Our Clients</h1>
-        <hr width="100px" color="#a9ce4d" />
         <p className="our-clients-text">
           We are trusted by these brands and many more to deliver transformative
           solutions.
@@ -149,14 +152,6 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <h4 className="learning-journey">START YOUR 2024 LEARNING JOURNEY </h4>
-        <h3>Download 2024</h3>
-        <h2>Training Calendar</h2>
-        <button type="button" className="download-button">
-          <a href="#" className="download-link">
-            DOWNLOAD
-          </a>
-        </button>
       </div>
       <div className="testimonial-container">
         <h1 className="testimonial-heading">Testimonials</h1>
@@ -248,6 +243,16 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="calendar-download-container">
+        <h4 className="learning-journey">START YOUR 2024 LEARNING JOURNEY </h4>
+        <h3>Download 2024</h3>
+        <h2>Training Calendar</h2>
+        <button type="button" className="download-button">
+          <a href="#" className="download-link">
+            DOWNLOAD
+          </a>
+        </button>
       </div>
     </main>
   );

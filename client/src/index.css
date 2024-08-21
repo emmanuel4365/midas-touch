@@ -381,7 +381,7 @@ header {
   justify-content: center;
 }
 
-.services-dots {
+.dots {
   width: 50px;
   height: 20px;
   display: flex;
@@ -390,8 +390,8 @@ header {
   gap: 10px;
 }
 
-.services-dot-left,
-.services-dot-right {
+.dot-left,
+.dot-right {
   width: 10px;
   height: 10px;
   background-color: #53b508;
@@ -401,6 +401,7 @@ header {
 .services-heading {
   font-size: 55px;
   font-weight: bold;
+  text-transform: uppercase;
   /* color: #a9ce4d; */
 }
 
@@ -548,64 +549,6 @@ header {
     url("./assets/advisory.webp") center 50px / cover no-repeat;
 } */
 
-.accreditations-and-memberships-container {
-  width: 100%;
-  min-height: 1000px;
-  max-width: 1500px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.801),
-      rgba(255, 255, 255, 0.801)
-    ),
-    url("./assets/membership2-pic.jpg") center 100px / cover fixed no-repeat;
-}
-
-.accreditations-and-memberships-heading {
-  font-size: 45px;
-  font-weight: bold;
-  color: #a9ce4d;
-}
-
-.memberships-logos-container {
-  width: 100%;
-  max-width: 1500px;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.memberships-logos-center {
-  width: 95%;
-  max-width: 1500px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.member-logo {
-  width: 23%;
-  background-color: red;
-}
-
-.ican,
-.citn,
-.icsan {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.logo2 {
-  width: 23%;
-}
-
 .our-clients-container {
   width: 100%;
   min-height: 1000px;
@@ -617,23 +560,14 @@ header {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("./assets/clients-background-image.jpg") center 100px / cover fixed
-      no-repeat;
+    url("./assets/our-clients-image.jpg") center 100px / cover fixed no-repeat;
 }
 
 .our-clients-heading {
   font-size: 45px;
   font-weight: bold;
-  color: #a9ce4d;
-}
-
-.accreditations-and-memberships-text {
-  width: 95%;
-  max-width: 1500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  color: var(--clr-text-white);
+  text-transform: uppercase;
 }
 
 .clients-logos-container {
@@ -713,29 +647,6 @@ header {
   height: auto;
 }
 
-.learning-journey {
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.download-button {
-  margin-top: 30px;
-  padding-inline: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: #a9ce4d;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 10px;
-  border: none;
-}
-
-.download-link {
-  text-decoration: none;
-}
-
 .testimonial-container {
   width: 100%;
   min-height: 1000px;
@@ -793,6 +704,108 @@ header {
 .testimony-giver-name {
   font-weight: bold;
 }
+
+.accreditations-and-memberships-container {
+  width: 100%;
+  min-height: 1000px;
+  max-width: 1500px;
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.801),
+      rgba(255, 255, 255, 0.801)
+    ),
+    url("./assets/membership2-pic.jpg") center 100px / cover fixed no-repeat;
+}
+
+.accreditations-and-memberships-heading {
+  font-size: 45px;
+  font-weight: bold;
+  color: #a9ce4d;
+}
+
+.memberships-logos-container {
+  width: 100%;
+  max-width: 1500px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.memberships-logos-center {
+  width: 95%;
+  max-width: 1500px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member-logo {
+  width: 23%;
+  background-color: red;
+}
+
+.ican,
+.citn,
+.icsan {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* .citn {
+  width: 23%;
+} */
+
+.accreditations-and-memberships-text {
+  width: 95%;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.calendar-download-container {
+  width: 100%;
+  min-height: 400px;
+  max-width: 1500px;
+  /* margin-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.learning-journey {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-button {
+  margin-top: 30px;
+  padding-inline: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #a9ce4d;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.download-link {
+  text-decoration: none;
+}
+
 /* ===================== */
 /* End of Landing Page */
 
