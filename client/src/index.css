@@ -984,6 +984,31 @@ header {
 /* ===================== */
 /* End of Management Team Page */
 
+/* Contact Page */
+/* ============================== */
+.contact-page {
+  width: 100%;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: url("./assets/green-tile3.webp") center center / cover no-repeat;
+}
+
+.contact-page-center {
+  width: 70%;
+  min-height: 400px;
+  max-width: 1500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* ===================== */
+/* End of Contact Page */
+
 /* Footer */
 /* ============================== */
 

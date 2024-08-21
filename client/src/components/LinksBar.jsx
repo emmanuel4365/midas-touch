@@ -46,7 +46,7 @@ const LinksBar = () => {
         </div>
       </div>
       <div className="page-link contact">
-        <Link to="/" className="contact-link">
+        <Link to="/contact" className="contact-link">
           Contact
         </Link>
       </div>

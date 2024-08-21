@@ -5,6 +5,7 @@ import AboutUsPage from "./AboutUsPage";
 import CorporateAndAdvisoryPage from "./CorporateAndAdvisoryPage";
 import LearningAndDevelopmentPage from "./LearningAndDevelopmentPage";
 import ManagementTeamPage from "./ManagementTeamPage";
+import ContactPage from "./ContactPage";
 
 export {
   HomePage,
@@ -14,4 +15,5 @@ export {
   CorporateAndAdvisoryPage,
   LearningAndDevelopmentPage,
   ManagementTeamPage,
+  ContactPage,
 };

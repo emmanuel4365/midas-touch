@@ -7,6 +7,7 @@ import {
   CorporateAndAdvisoryPage,
   LearningAndDevelopmentPage,
   ManagementTeamPage,
+  ContactPage,
 } from "./pages";
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/corporate-and-advisory-services",
         element: <CorporateAndAdvisoryPage />,
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />,
       },
     ],
   },
