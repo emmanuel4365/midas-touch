@@ -659,19 +659,20 @@ header {
   justify-content: center;
   /* background: linear-gradient(rgba(255, 255, 255, 0.801), rgba(255, 255, 255, 0.801), */
   background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url("./assets/testimonial-background.jpg") center / cover no-repeat;
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.7)
+  );
 }
 
 .testimonial-text {
   margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 .testimonial-heading {
-  color: #a9ce4d;
-  font-size: 45px;
+  color: #cfd2cd;
+  font-size: 120px;
 }
 
 .testimonial-statements {
@@ -686,7 +687,7 @@ header {
 
 .statement {
   width: 32%;
-  min-height: 479px;
+  min-height: 450px;
   font-size: 12px;
   /* text-align: justify; */
   border: 1px solid white;
@@ -695,10 +696,10 @@ header {
   padding: 5px;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 13px 6px 41px -14px rgba(68, 154, 4, 1);
 }
 
 .testimony-giver-name {
