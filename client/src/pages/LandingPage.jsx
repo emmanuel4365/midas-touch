@@ -83,7 +83,10 @@ const LandingPage = () => {
             Maiduguri, we have proudly served clients for the past five years,
             delivering excellence across a broad spectrum of services.
           </p>
-          <button className="service-empower-button">
+          <button
+            className="service-empower-button"
+            style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+          >
             <Link to="/about-us">MORE ABOUT US</Link>
           </button>
         </div>
@@ -258,7 +261,11 @@ const LandingPage = () => {
         <h4 className="learning-journey">START YOUR 2024 LEARNING JOURNEY </h4>
         <h3 style={{ color: "#53B508" }}>Download 2024</h3>
         <h2 style={{ color: "#53B508" }}>Training Calendar</h2>
-        <button type="button" className="download-button">
+        <button
+          type="button"
+          className="download-button"
+          style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+        >
           <a href="#" className="download-link">
             DOWNLOAD
           </a>

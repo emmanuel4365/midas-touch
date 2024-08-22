@@ -4,7 +4,10 @@ import { MdArrowDropDown, MdArrowDropUp } from "react-icons/md";
 const LinksBar = () => {
   return (
     <div className="links-bar">
-      <div className="page-link home">
+      <div
+        className="page-link home"
+        style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
+      >
         <Link to="/" className="home-link">
           Home
         </Link>

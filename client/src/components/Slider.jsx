@@ -37,7 +37,10 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">
+                <h4
+                  className="slider-button-text"
+                  style={{ textShadow: "rgba(0,0,0,0.4) 0px 4px 4px " }}
+                >
                   <Link to="/corporate-and-advisory-services">LEARN MORE</Link>
                 </h4>
               </button>
@@ -72,7 +75,10 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">
+                <h4
+                  className="slider-button-text"
+                  style={{ textShadow: "rgba(0,0,0,0.4) 0px 4px 4px " }}
+                >
                   <Link to="/learning-and-development">LEARN MORE</Link>
                 </h4>
               </button>
@@ -101,7 +107,10 @@ const Slider = () => {
             </p>
             <div className="slider-button-container">
               <button type="button" className="slider-button button1">
-                <h4 className="slider-button-text">
+                <h4
+                  className="slider-button-text"
+                  style={{ textShadow: "rgba(0,0,0,0.4) 0px 4px 4px " }}
+                >
                   <Link to="/corporate-and-advisory-services">LEARN MORE</Link>
                 </h4>
               </button>
