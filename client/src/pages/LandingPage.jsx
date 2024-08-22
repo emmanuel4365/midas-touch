@@ -169,8 +169,8 @@ const LandingPage = () => {
         <h2 className="testimonial-text">Client Feedback</h2>
         <div className="testimonial-statements">
           <div className="statement client1">
-            <p className="statement-paragraph">
-              "I'm thrilled to share my amazing experience at Midas Touch ICAN
+            <q className="statement-paragraph">
+              I'm thrilled to share my amazing experience at Midas Touch ICAN
               Tutorial centre! My name is Shepherdess Bulus Wayar, an Accounting
               graduate and I attended their tutorial centre for my Skills level
               exam (May diet) and passed four out of five courses in one go! The
@@ -179,8 +179,8 @@ const LandingPage = () => {
               learning environment and the significant impact it had on my
               academic success. I wholeheartedly recommend Midas Touch to anyone
               seeking top-notch tutoring for their ICAN journey. They truly
-              deliver excellence!"
-            </p>
+              deliver excellence!
+            </q>
             <p className="client-status">
               <span className="testimony-giver-name">
                 Shepherdess Bulus Wayar
@@ -189,8 +189,8 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="statement client2">
-            <p className="statement-paragraph">
-              "MIDAS TOUCH reassured me to believe in myself. I registered as an
+            <q className="statement-paragraph">
+              MIDAS TOUCH reassured me to believe in myself. I registered as an
               ICAN student a decade ago, sat for two diets, and gave up. This
               year, the center was recommended for me, and I accepted. I
               registered, attended and participated in the class, sat for May
@@ -198,16 +198,16 @@ const LandingPage = () => {
               deserved failing PSAF because I also didn't do justice to it.
               MIDAS Touch is a place to be. Full of potentials to influence you
               academically, business wise, and in general decisions of live.
-              Choose MidasTouch and be touched."
-            </p>
+              Choose MidasTouch and be touched.
+            </q>
             <p className="client-status">
               <span className="testimony-giver-name">Joy Malgwi</span>, Student,
               Midas Touch ICAN Tutorial centre
             </p>
           </div>
           <div className="statement client3">
-            <p className="statement-paragraph">
-              "As the Chief Operating Officer of Food Ratata Ltd, I am delighted
+            <q className="statement-paragraph">
+              As the Chief Operating Officer of Food Ratata Ltd, I am delighted
               to share our positive experience with Midas Touch Consult. Their
               services have significantly transformed our operations,
               particularly in reducing costs and minimizing waste through their
@@ -221,8 +221,8 @@ const LandingPage = () => {
               highly recommend Midas Touch Consult to any organization seeking
               to enhance their internal controls, reduce costs, and boost
               profitability. Their expertise and dedication make them an
-              invaluable partner in business success."
-            </p>
+              invaluable partner in business success.
+            </q>
             <p className="client-status">
               <span className="testimony-giver-name">Eboh Precious</span>, Chief
               Operating Officer, Food Ratata Ltd

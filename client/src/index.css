@@ -435,7 +435,7 @@ header {
   border-bottom-right-radius: 10px;
   padding-bottom: 16px;
   background-color: var(--clr-border);
-  box-shadow: 0 0 10px 5px #e5e5e5;
+  box-shadow: 13px 6px 41px -14px rgba(68, 154, 4, 1);
 }
 
 .service1-image-container,
@@ -517,6 +517,7 @@ header {
   );
   color: var(--clr-text-white);
   font-weight: bold;
+  border: none;
 }
 
 .service-button a {
@@ -714,6 +715,27 @@ header {
   box-shadow: 13px 6px 41px -14px rgba(68, 154, 4, 1);
 }
 
+.statement-paragraph {
+  quotes: "\201C""\201D";
+  position: relative;
+  &::before {
+    content: open-quote;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 32px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+  }
+  &::after {
+    content: close-quote;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 32px;
+    position: absolute;
+    bottom: -35px;
+    right: 70px;
+  }
+}
+
 .testimony-giver-name {
   font-weight: bold;
 }
@@ -816,6 +838,8 @@ header {
 
 .download-link {
   text-decoration: none;
+  color: var(--clr-text-white);
+  font-weight: bold;
 }
 
 /* ===================== */
