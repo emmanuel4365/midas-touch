@@ -13,11 +13,11 @@ export const contactSideBarLink = document.querySelector(".contact-sidebar");
 
 function Sidebar() {
   function handleClick() {
-    sidebar.classList.add("close");
+    sidebar.className = "sidebar close";
   }
 
   return (
-    <div className="sidebar">
+    <div className="sidebar" id="sidebar">
       <MdClose
         className="close-btn"
         onClick={() => {

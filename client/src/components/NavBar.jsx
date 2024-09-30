@@ -9,7 +9,7 @@ import { sidebar } from "./Sidebar";
 
 const NavBar = () => {
   function handleClick() {
-    sidebar.classList.remove("close");
+    sidebar.className = "sidebar";
   }
   return (
     <nav className="navbar">
