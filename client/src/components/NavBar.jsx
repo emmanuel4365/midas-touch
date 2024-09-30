@@ -13,13 +13,11 @@ const NavBar = () => {
         <div className="top-address-center">
           <div className="top-address-contact email">
             <img src={emailIcon} alt="" width="16px" height="16px" />
-            <span style={{ fontSize: "12px" }}>
-              midastouchconsult33@gmail.com
-            </span>
+            <span>midastouchconsult33@gmail.com</span>
           </div>
           <div className="top-address-contact address">
             <img src={addressIcon} alt="" width="16px" height="16px" />
-            <span style={{ fontSize: "12px" }}>+234 916 666 1459</span>
+            <span>+234 916 666 1459</span>
           </div>
         </div>
       </div>

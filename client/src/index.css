@@ -129,6 +129,10 @@ header {
   gap: 10px;
 }
 
+.top-address-contact > span {
+  font-size: 12px;
+}
+
 .logo-links-center {
   width: 97%;
   max-width: 1500px;
@@ -1362,5 +1366,62 @@ footer {
   .about-us-paragraph {
     text-align: left;
     margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    max-width: 360px;
+  }
+  header {
+    height: 100px;
+  }
+  .midas-logo-container {
+    width: 25%;
+    height: 95%;
+  }
+  .justify-icon {
+    width: 12%;
+    height: 95%;
+  }
+  .slider-top-heading {
+    font-size: 24px;
+  }
+  .slider-heading {
+    font-size: 20px;
+  }
+  .top-address-contact > span {
+    font-size: 10px;
+  }
+  .service {
+    width: 320px;
+    text-align: left;
+  }
+  .service-empower-heading {
+    font-size: 19px;
+  }
+  .service-empower-paragraph {
+    font-size: 12px;
+  }
+  .testimonial-heading {
+    font-size: 45px;
+  }
+  .testimonial-text {
+    font-size: 35px;
+  }
+  .statement {
+    width: 320px;
+  }
+  .footer-logo {
+    width: 70%;
+    min-height: 50px;
+    /* background-color: var(--clr-background-white); */
+  }
+  .copyright {
+    font-size: 11px;
   }
 }
