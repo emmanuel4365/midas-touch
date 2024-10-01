@@ -4,14 +4,14 @@ import midasLogo from "../assets/midas-touch-logo.png";
 import { MdFormatAlignJustify } from "react-icons/md";
 import addressIcon from "../assets/address-icon.svg";
 import emailIcon from "../assets/email-icon.svg";
-import { sidebar } from "./Sidebar";
 // import SearchBar from "./SearchBar";
 
 const NavBar = () => {
+  let sidebar = document.getElementById("sidebar");
   function handleClick() {
     console.log(sidebar);
 
-    sidebar.className = "sidebar";
+    sidebar.classList.remove("close");
   }
   return (
     <nav className="navbar">
@@ -38,9 +38,7 @@ const NavBar = () => {
         <MdFormatAlignJustify
           className="justify-icon"
           cursor="pointer"
-          onClick={() => {
-            handleClick();
-          }}
+          onClick={handleClick}
         />
       </div>
     </nav>

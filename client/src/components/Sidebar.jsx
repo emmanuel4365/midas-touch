@@ -1,7 +1,7 @@
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-export const sidebar = document.getElementById("sidebar");
+export let sidebar = null;
 
 export const homeSideBarLink = document.querySelector(".home-sidebar");
 
@@ -15,7 +15,7 @@ function Sidebar() {
   function handleClick(e) {
     console.log(e);
 
-    let sidebar = e.currentTarget.parentElement;
+    sidebar = e.currentTarget.parentElement;
     console.log(sidebar);
 
     sidebar.classList.add("close");
