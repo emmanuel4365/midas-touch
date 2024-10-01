@@ -90,7 +90,10 @@ header {
   height: 100vh;
   z-index: 150;
   background-color: rgb(170, 232, 159);
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .sidebar a {
@@ -110,7 +113,7 @@ header {
   left: 20%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 .sidebar-menu-list {
@@ -119,6 +122,9 @@ header {
   background-color: white;
   font-size: 14px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .close-btn {
@@ -126,8 +132,8 @@ header {
   color: red;
   position: absolute;
   cursor: pointer;
-  top: 0;
-  left: 90%;
+  top: 5%;
+  left: 80%;
 }
 
 .close {
