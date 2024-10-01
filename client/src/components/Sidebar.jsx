@@ -12,20 +12,18 @@ export const servicesDropDown = document.querySelector(".sidebar-dropdown-2");
 export const contactSideBarLink = document.querySelector(".contact-sidebar");
 
 function Sidebar() {
-  function handleClick() {
+  function handleClick(e) {
+    console.log(e);
+
+    let sidebar = e.currentTarget.parentElement;
     console.log(sidebar);
 
-    sidebar.className = "sidebar close";
+    sidebar.classList.add("close");
   }
 
   return (
     <div className="sidebar" id="sidebar">
-      <MdClose
-        className="close-btn"
-        onClick={() => {
-          handleClick();
-        }}
-      />
+      <MdClose className="close-btn" onClick={handleClick} />
       <div className="links-sidebar">
         <div
           className="home-sidebar"
