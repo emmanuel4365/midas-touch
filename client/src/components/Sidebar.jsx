@@ -1,50 +1,47 @@
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-export let sidebar = null;
-
-export const homeSideBarLink = document.querySelector(".home-sidebar");
-
-export const aboutDropDown = document.querySelector(".sidebar-dropdown-1");
-
-export const servicesDropDown = document.querySelector(".sidebar-dropdown-2");
-
-export const contactSideBarLink = document.querySelector(".contact-sidebar");
-
 function Sidebar() {
   function handleClick(e) {
-    console.log(e);
-
-    sidebar = e.currentTarget.parentElement;
-    console.log(sidebar);
+    let sidebar = e.currentTarget.parentElement;
 
     sidebar.classList.add("close");
+  }
+
+  function handleHomeAndContactClick(e) {
+    let sidebar = e.currentTarget.parentElement.parentElement;
+
+    sidebar.classList.add("close");
+  }
+
+  function handleAboutAndServicesClick(e) {
+    let sidebar = e.currentTarget.parentElement.parentElement.parentElement;
+
+    sidebar.classList.add("close");
+  }
+
+  function handleAboutClick(e) {
+    let dropDownOne = e.currentTarget.firstElementChild;
+    dropDownOne.classList.toggle("close");
+  }
+
+  function handleServicesClick(e) {
+    let dropDownTwo = e.currentTarget.firstElementChild;
+    dropDownTwo.classList.toggle("close");
   }
 
   return (
     <div className="sidebar" id="sidebar">
       <MdClose className="close-btn" onClick={handleClick} />
       <div className="links-sidebar">
-        <div
-          className="home-sidebar"
-          onClick={() => {
-            sidebar.classList.add("close");
-          }}
-        >
+        <div className="home-sidebar" onClick={handleHomeAndContactClick}>
           <Link to="/">Home</Link>
         </div>
-        <div
-          className="about-sidebar"
-          onClick={() => {
-            aboutDropDown.classList.toggle("close");
-          }}
-        >
+        <div className="about-sidebar" onClick={handleAboutClick}>
           About Us
           <div
             className="sidebar-dropdown-list sidebar-dropdown-1 close"
-            onClick={() => {
-              sidebar.classList.add("close");
-            }}
+            onClick={handleAboutAndServicesClick}
           >
             <ul className="sidebar-menu-list">
               <li>
@@ -53,18 +50,11 @@ function Sidebar() {
             </ul>
           </div>
         </div>
-        <div
-          className="services-sidebar"
-          onClick={() => {
-            servicesDropDown.classList.toggle("close");
-          }}
-        >
+        <div className="services-sidebar" onClick={handleServicesClick}>
           Services
           <div
             className="sidebar-dropdown-list sidebar-dropdown-2 close"
-            onClick={() => {
-              sidebar.classList.add("close");
-            }}
+            onClick={handleAboutAndServicesClick}
           >
             <ul className="sidebar-menu-list">
               <li>
@@ -80,12 +70,7 @@ function Sidebar() {
             </ul>
           </div>
         </div>
-        <div
-          className="contact-sidebar"
-          onClick={() => {
-            sidebar.classList.add("close");
-          }}
-        >
+        <div className="contact-sidebar" onClick={handleHomeAndContactClick}>
           <Link to="/contact">Contact</Link>
         </div>
       </div>

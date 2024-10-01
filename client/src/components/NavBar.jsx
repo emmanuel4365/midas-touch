@@ -8,10 +8,8 @@ import emailIcon from "../assets/email-icon.svg";
 
 const NavBar = () => {
   function handleClick(e) {
-    console.log(e);
     let sidebar =
       e.currentTarget.parentElement.parentElement.previousElementSibling;
-    console.log(sidebar);
 
     sidebar.classList.remove("close");
   }
