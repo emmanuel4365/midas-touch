@@ -31,7 +31,7 @@ function Sidebar() {
   }
 
   return (
-    <div className="sidebar" id="sidebar">
+    <div className="sidebar close" id="sidebar">
       <MdClose className="close-btn" onClick={handleClick} />
       <div className="links-sidebar">
         <div className="home-sidebar" onClick={handleHomeAndContactClick}>
