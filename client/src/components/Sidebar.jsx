@@ -1,7 +1,7 @@
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-export const sidebar = document.querySelector(".sidebar");
+export const sidebar = document.getElementById("sidebar");
 
 export const homeSideBarLink = document.querySelector(".home-sidebar");
 
@@ -13,6 +13,8 @@ export const contactSideBarLink = document.querySelector(".contact-sidebar");
 
 function Sidebar() {
   function handleClick() {
+    console.log(sidebar);
+
     sidebar.className = "sidebar close";
   }
 

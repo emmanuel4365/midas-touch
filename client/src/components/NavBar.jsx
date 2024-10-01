@@ -9,6 +9,8 @@ import { sidebar } from "./Sidebar";
 
 const NavBar = () => {
   function handleClick() {
+    console.log(sidebar);
+
     sidebar.className = "sidebar";
   }
   return (
