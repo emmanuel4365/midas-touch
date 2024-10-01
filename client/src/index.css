@@ -1247,7 +1247,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 900px) {
   .page-link {
     font-size: small;
   }
@@ -1293,6 +1293,13 @@ footer {
 
   .testimonial-statements {
     flex-direction: column;
+  }
+
+  .testimonial-heading {
+    font-size: 60px;
+  }
+  .testimonial-text {
+    font-size: 40px;
   }
 
   .statement {
@@ -1373,7 +1380,16 @@ footer {
     margin: 20px 0;
   }
   .testimonial-heading {
+    font-size: 60px;
+  }
+  .testimonial-text {
     font-size: 40px;
+  }
+  .statement {
+    width: 350px;
+  }
+  .service-empower-paragraph {
+    font-size: 14px;
   }
 }
 
