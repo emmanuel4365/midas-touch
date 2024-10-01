@@ -6,8 +6,8 @@ import addressIcon from "../assets/address-icon.svg";
 import emailIcon from "../assets/email-icon.svg";
 // import SearchBar from "./SearchBar";
 
+let sidebar = document.getElementById("sidebar");
 const NavBar = () => {
-  let sidebar = document.getElementById("sidebar");
   function handleClick() {
     console.log(sidebar);
 
