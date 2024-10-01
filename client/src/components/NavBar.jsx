@@ -6,9 +6,11 @@ import addressIcon from "../assets/address-icon.svg";
 import emailIcon from "../assets/email-icon.svg";
 // import SearchBar from "./SearchBar";
 
-let sidebar = document.getElementById("sidebar");
 const NavBar = () => {
-  function handleClick() {
+  function handleClick(e) {
+    console.log(e);
+    let sidebar =
+      e.currentTarget.parentElement.parentElement.previousElementSibling;
     console.log(sidebar);
 
     sidebar.classList.remove("close");
