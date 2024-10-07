@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Slider } from "../components";
 import { rightClick } from "../utils/RightArrow";
-import internalAuditMaterial from "../assets/files/risk-mgt-imternal-audit.pdf";
+import internalAuditMaterial from "../assets/files/internal-audit.pdf";
 
 // import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
