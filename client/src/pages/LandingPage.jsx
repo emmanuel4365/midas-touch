@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Slider } from "../components";
 import { rightClick } from "../utils/RightArrow";
+import internalAuditMaterial from "../assets/files/risk-mgt-imternal-audit.pdf";
 
 // import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
@@ -258,15 +259,21 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="calendar-download-container">
-        <h4 className="learning-journey">START YOUR 2024 LEARNING JOURNEY </h4>
+        <h4 className="learning-journey">
+          Internal Audit Best Practices in The Humanitarian Sector
+        </h4>
         <h3 style={{ color: "#53B508" }}>Download 2024</h3>
-        <h2 style={{ color: "#53B508" }}>Training Calendar</h2>
+        <h2 style={{ color: "#53B508" }}>Webinar Material</h2>
         <button
           type="button"
           className="download-button"
           style={{ boxShadow: "0px 4px 4px 0px rgba(0,0,0,0.25)" }}
         >
-          <a href="#" className="download-link">
+          <a
+            href={internalAuditMaterial}
+            className="download-link"
+            download="internal-audit"
+          >
             DOWNLOAD
           </a>
         </button>

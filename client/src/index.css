@@ -1431,6 +1431,7 @@ footer {
 
   .learning-journey {
     font-size: 14px;
+    text-align: center;
   }
 
   .logo-links-center {
@@ -1497,5 +1498,9 @@ footer {
   }
   .copyright {
     font-size: 11px;
+  }
+  .learning-journey {
+    font-size: 14px;
+    text-align: center;
   }
 }
