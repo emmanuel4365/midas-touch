@@ -1,5 +1,5 @@
 import slider1Photo from "../assets/slider-photo1-new.jpg";
-import slider2Photo from "../assets/ican-ats-background-pic.jpg";
+import slider2Photo from "../assets/ican-students.jpeg";
 import slider3Photo from "../assets/slider-photo2.png";
 import { rightClick } from "../utils/RightArrow";
 import { leftClick } from "../utils/LeftArrow";
@@ -56,7 +56,11 @@ const Slider = () => {
           data-translate="100"
           data-selected="false"
         >
-          <img src={slider2Photo} alt="students photo" />
+          <img
+            src={slider2Photo}
+            alt="students photo"
+            className="slider-photo2"
+          />
           <div className="overlay"></div>
           <div
             className="text-button-container"
