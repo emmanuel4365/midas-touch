@@ -1,6 +1,11 @@
 import { useEffect } from "react";
-import { Slider } from "../components";
+import { GallerySectionSlider, Slider } from "../components";
+import { gSectionRightClick } from "../utils/GSectionRightArrow";
+import { gSectionLeftClick } from "../utils/GSectionLeftArrow";
 import { rightClick } from "../utils/RightArrow";
+// import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
+// import { MdArrowCircleRight, MdArrowCircleLeft } from "react-icons/md";
+import { MdArrowRight, MdArrowLeft } from "react-icons/md";
 import internalAuditMaterial from "../assets/files/internal-audit.pdf";
 
 // import globeGif from "../assets/globe3.gif";
@@ -19,8 +24,17 @@ import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   useEffect(() => {
-    let a = setInterval(rightClick, 4000);
-    return () => clearInterval(a);
+    //Select elements
+    let gSectionBox3 = document.querySelector(".g-section-num-stat.box3");
+    let gSectionPhotos = [...document.querySelectorAll(".g-section-image")];
+    gSectionBox3.textContent = gSectionPhotos.length;
+
+    let a = setInterval(rightClick, 5000);
+    let b = setInterval(gSectionRightClick, 5000);
+    return () => {
+      clearInterval(a);
+      clearInterval(b);
+    };
   }, []);
 
   return (
@@ -256,6 +270,28 @@ const LandingPage = () => {
               <img src={icsanLogo} alt="icsan logo" className="icsan" />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="gallery-section-container">
+        <GallerySectionSlider />
+        <MdArrowLeft
+          size={50}
+          color="#000000"
+          className="g-section-left-arrow"
+          onClick={gSectionLeftClick}
+          cursor="pointer"
+        />
+        <MdArrowRight
+          size={50}
+          color="#000000"
+          className="g-section-right-arrow"
+          onClick={gSectionRightClick}
+          cursor="pointer"
+        />
+        <div className="g-section-num-stat-container">
+          <div className="g-section-num-stat box box1">1</div>
+          <div className="g-section-num-stat box box2">of</div>
+          <div className="g-section-num-stat box box3"></div>
         </div>
       </div>
       <div className="calendar-download-container">

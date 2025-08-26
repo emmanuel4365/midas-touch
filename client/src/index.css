@@ -888,6 +888,145 @@ header {
   justify-content: center;
 }
 
+.gallery-section-container {
+  width: 100%;
+  min-height: 500px;
+  max-width: 1500px;
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-section-slider-container {
+  width: 100%;
+  min-height: 500px;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.g-section-image {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.g-section-image1 {
+  transform: translateX(0);
+}
+
+.g-section-image2 {
+  transform: translateX(100%);
+}
+
+.g-section-image3 {
+  transform: translateX(200%);
+}
+
+.g-section-image4 {
+  transform: translateX(300%);
+}
+
+.g-section-image5 {
+  transform: translateX(400%);
+}
+
+.g-section-image6 {
+  transform: translateX(500%);
+}
+
+.g-section-image7 {
+  transform: translateX(600%);
+}
+
+.g-section-image8 {
+  transform: translateX(700%);
+}
+
+.g-section-image9 {
+  transform: translateX(800%);
+}
+
+.g-section-image10 {
+  transform: translateX(900%);
+}
+
+.g-section-image11 {
+  transform: translateX(1000%);
+}
+
+.g-section-image12 {
+  transform: translateX(1100%);
+}
+
+.g-section-image13 {
+  transform: translateX(1200%);
+}
+
+.g-section-image14 {
+  transform: translateX(1300%);
+}
+
+.g-section-image15 {
+  transform: translateX(1400%);
+}
+
+.g-section-image16 {
+  transform: translateX(1500%);
+}
+
+.g-section-image17 {
+  transform: translateX(1600%);
+}
+
+.g-section-image18 {
+  transform: translateX(1700%);
+}
+
+.g-section-image19 {
+  transform: translateX(1800%);
+}
+
+.g-section-image20 {
+  transform: translateX(1900%);
+}
+
+.g-section-right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.g-section-left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.g-section-num-stat-container {
+  width: 5%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.g-section-num-stat.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .download-button {
   margin-top: 30px;
   padding-inline: 16px;
@@ -1507,5 +1646,12 @@ footer {
   .learning-journey {
     font-size: 14px;
     text-align: center;
+  }
+  .gallery-section-container img {
+    height: 250px;
+  }
+  .g-section-num-stat-container {
+    margin-top: -100px;
+    width: 18%;
   }
 }

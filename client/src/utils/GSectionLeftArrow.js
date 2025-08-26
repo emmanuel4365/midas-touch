@@ -1,14 +1,16 @@
-export function leftClick() {
-  let photos = Array.from(document.querySelectorAll(".image"));
-  let imageContainer = document.querySelector(".image-container");
-  //   let circles = Array.from(document.querySelectorAll(".circle"));
-  //   let circlesContainer = document.querySelector(".banner-circles-container");
+export function gSectionLeftClick() {
+  let photos = Array.from(document.querySelectorAll(".g-section-image"));
+  let imageContainer = document.querySelector(
+    ".gallery-section-slider-container"
+  );
+
+  let gSectionBox1 = document.querySelector(".g-section-num-stat.box1");
 
   let el = photos.find((item) => item.dataset.selected === "true");
-  //   let circle = circles.find((circle) => circle.classList.contains("selected"));
 
   if (el.dataset.selected === "true" && !el.previousElementSibling) {
     el.dataset.selected = "false";
+
     // let circlesCopy = [...circles];
     // let circlesReverse = circlesCopy.reverse();
     let arrCopy = [...photos];
@@ -18,7 +20,9 @@ export function leftClick() {
       item.dataset.translate = `${index * -100}`;
       return item;
     });
+
     loadedPhotos[0].dataset.selected = "true";
+    gSectionBox1.textContent = loadedPhotos[0].dataset.id;
     // circlesReverse[0].classList.add("selected");
     // circle.classList.remove("selected");
     return;
@@ -32,6 +36,7 @@ export function leftClick() {
     // circlesContainer.lastElementChild.classList.add("selected");
   } else {
     el.previousElementSibling.dataset.selected = "true";
+    gSectionBox1.textContent = el.previousElementSibling.dataset.id;
     // circle.previousElementSibling.classList.add("selected");
   }
 
