@@ -1088,6 +1088,11 @@ header {
   color: #a9ce4d;
   font-weight: 800;
 }
+
+.about-photo-container {
+  margin-top: 30px;
+}
+
 /* ===================== */
 /* End of About Page */
 
@@ -1657,5 +1662,8 @@ footer {
   .g-section-num-stat-container {
     margin-top: -100px;
     width: 18%;
+  }
+  .about-photo {
+    height: 250px;
   }
 }
