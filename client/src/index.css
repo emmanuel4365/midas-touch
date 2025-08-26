@@ -514,6 +514,10 @@ header {
   height: auto;
 }
 
+.service2-image {
+  height: 360px;
+}
+
 /* .service1-underline {
   width: 95%;
   height: 1px;

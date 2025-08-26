@@ -13,7 +13,7 @@ import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import icsanLogo from "../assets/icsan-logo.jpeg";
 import service1Photo from "../assets/service1-image.jpg";
-import service2Photo from "../assets/service2-image.jpg";
+import service2Photo from "../assets/galleryPhotos/galleryPhoto20.jpeg";
 import serviceEmpowerPhoto from "../assets/service-empower-image.jpg";
 import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
