@@ -127,6 +127,10 @@ header {
   gap: 10px;
 }
 
+.sidebar-hover:hover {
+  background-color: #09ff01;
+}
+
 .close-btn {
   font-size: 30px;
   color: red;

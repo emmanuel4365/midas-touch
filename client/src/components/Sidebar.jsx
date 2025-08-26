@@ -50,7 +50,7 @@ function Sidebar() {
             onClick={handleAboutAndServicesClick}
           >
             <ul className="sidebar-menu-list">
-              <li>
+              <li className="sidebar-hover">
                 <Link to="/about-us">Who We Are</Link>
               </li>
             </ul>
@@ -63,12 +63,12 @@ function Sidebar() {
             onClick={handleAboutAndServicesClick}
           >
             <ul className="sidebar-menu-list">
-              <li>
+              <li className="sidebar-hover">
                 <Link to="/learning-and-development">
                   Learning & Development
                 </Link>
               </li>
-              <li>
+              <li className="sidebar-hover">
                 <Link to="/corporate-and-advisory-services">
                   Corporate Services & Advisories
                 </Link>
