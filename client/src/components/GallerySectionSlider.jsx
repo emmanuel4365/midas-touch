@@ -21,7 +21,7 @@ import slider20Photo from "../assets/galleryPhotos/galleryPhoto2.jpeg";
 
 const GallerySectionSlider = () => {
   return (
-    <div className="gallery-section-slider-container">
+    <div className="gallery-section-slider-container" id="gallery">
       <div
         className="g-section-image g-section-image1"
         data-id="1"

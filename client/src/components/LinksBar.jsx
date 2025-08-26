@@ -48,6 +48,11 @@ const LinksBar = () => {
           </ul>
         </div>
       </div>
+      <div className="page-link gallery">
+        <a href="http://localhost:5173/#gallery" className="gallery-link">
+          Gallery
+        </a>
+      </div>
       <div className="page-link contact">
         <Link to="/contact" className="contact-link">
           Contact

@@ -30,6 +30,12 @@ function Sidebar() {
     dropDownTwo.classList.toggle("close");
   }
 
+  function handleGallerySideBarClick(e) {
+    let sidebar = e.currentTarget.parentElement.parentElement;
+    console.log(sidebar);
+    sidebar.classList.add("close");
+  }
+
   return (
     <div className="sidebar close" id="sidebar">
       <MdClose className="close-btn" onClick={handleClick} />
@@ -69,6 +75,11 @@ function Sidebar() {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="gallery-sidebar" onClick={handleGallerySideBarClick}>
+          <a href="http://localhost:5173/#gallery" className="gallery-link">
+            Gallery
+          </a>
         </div>
         <div className="contact-sidebar" onClick={handleHomeAndContactClick}>
           <Link to="/contact">Contact</Link>
