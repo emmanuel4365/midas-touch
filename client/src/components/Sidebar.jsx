@@ -77,7 +77,10 @@ function Sidebar() {
           </div>
         </div>
         <div className="gallery-sidebar" onClick={handleGallerySideBarClick}>
-          <a href="http://localhost:5173/#gallery" className="gallery-link">
+          <a
+            href="https://www.themidastouchconsultancy.com/#gallery"
+            className="gallery-link"
+          >
             Gallery
           </a>
         </div>
