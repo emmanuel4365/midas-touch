@@ -5,6 +5,7 @@ import muhibideenRilwanphoto from "../assets/muhibideen-rilwan.jpeg";
 import emmaOmalephoto from "../assets/myPhoto2.jpg";
 
 const ManagementTeamPage = () => {
+  window.scrollTo(0, 0);
   return (
     <main className="management-team-page">
       <div className="management-team-page-center">

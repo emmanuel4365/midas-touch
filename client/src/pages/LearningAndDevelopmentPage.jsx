@@ -1,4 +1,5 @@
 const LearningAndDevelopmentPage = () => {
+  window.scrollTo(0, 0);
   return (
     <main className="learning-and-development-page">
       <div className="learning-and-development-page-center">

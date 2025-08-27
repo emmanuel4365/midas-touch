@@ -3,6 +3,8 @@ import emailIcon from "../assets/email-icon.svg";
 import phoneIcon from "../assets/phone-icon.svg";
 
 const ContactPage = () => {
+  window.scrollTo(0, 0);
+
   return (
     <main className="contact-page">
       <div className="contact-page-center">

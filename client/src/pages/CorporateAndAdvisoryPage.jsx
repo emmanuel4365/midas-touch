@@ -1,4 +1,5 @@
 const CorporateAndAdvisoryPage = () => {
+  window.scrollTo(0, 0);
   return (
     <main className="corporate-and-advisory-page">
       <div className="corporate-and-advisory-page-center">

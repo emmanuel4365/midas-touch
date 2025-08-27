@@ -3,12 +3,8 @@ import { GallerySectionSlider, Slider } from "../components";
 import { gSectionRightClick } from "../utils/GSectionRightArrow";
 import { gSectionLeftClick } from "../utils/GSectionLeftArrow";
 import { rightClick } from "../utils/RightArrow";
-// import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
-// import { MdArrowCircleRight, MdArrowCircleLeft } from "react-icons/md";
 import { MdArrowRight, MdArrowLeft } from "react-icons/md";
 import internalAuditMaterial from "../assets/files/internal-audit.pdf";
-
-// import globeGif from "../assets/globe3.gif";
 import icanLogo from "../assets/ican-logo.png";
 import citnLogo from "../assets/CITN-Logo.png";
 import icsanLogo from "../assets/icsan-logo.jpeg";
@@ -19,10 +15,10 @@ import BornoStateGovernmentLogo from "../assets/borno-government-logo.jpeg";
 import FoodRatataLtdLogo from "../assets/food-ratata-logo.jpeg";
 import SooyahBistroLtdLogo from "../assets/sooyah-bistro-logo.jpeg";
 import StudentLogo from "../assets/student-logo.jpeg";
-import midasLogo from "../assets/midas-touch-logo.png";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
+  window.scrollTo(0, 0);
   useEffect(() => {
     //Select elements
     let gSectionBox3 = document.querySelector(".g-section-num-stat.box3");

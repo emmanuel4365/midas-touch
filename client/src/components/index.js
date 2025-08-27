@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 import Slider from "./Slider";
 import Sidebar from "./Sidebar";
 import GallerySectionSlider from "./GallerySectionSlider";
+import ScrollToTop from "./ScrollToTop";
 
 export {
   Footer,
@@ -13,5 +14,6 @@ export {
   SearchBar,
   Slider,
   Sidebar,
+  ScrollToTop,
   GallerySectionSlider,
 };

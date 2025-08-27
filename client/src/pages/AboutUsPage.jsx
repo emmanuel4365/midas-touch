@@ -1,6 +1,7 @@
 import weArePhoto from "../assets/galleryPhotos/galleryPhoto20.jpeg";
 
 const AboutUsPage = () => {
+  window.scrollTo(0, 0);
   return (
     <main className="about-page">
       <div className="about-page-center">

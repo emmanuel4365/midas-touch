@@ -49,10 +49,7 @@ const LinksBar = () => {
         </div>
       </div>
       <div className="page-link gallery">
-        <a
-          href="https://www.themidastouchconsultancy.com/#gallery"
-          className="gallery-link"
-        >
+        <a href="http://localhost:5173/#gallery" className="gallery-link">
           Gallery
         </a>
       </div>
